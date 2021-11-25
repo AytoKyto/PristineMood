@@ -756,7 +756,7 @@ textarea {
 /* Footer
 --------------------------------------------- */
 .wrapperFooter {
-	background-color: #ddaa3a;
+	background-color: #040506;
 	color: #ffffff;
 	padding-left: 10vw;
 	padding-right: 10vw;
@@ -809,15 +809,19 @@ textarea {
 	font-size: 3.75em;
 	text-align: left;
 	color: #ddaa3a;
+	margin: 0%;
 }
 
 .imputNews {
 	font-family: Poppins;
 	font-weight: 500;
 	font-size: 1.1em;
+	color: #ffffff;
+	text-transform: uppercase;
 	background-color: transparent;
-	border: none;
-	border-bottom: 1px solid #ffffff;
+	border: none !important;
+	border-bottom: 1px solid #ffffff !important;
+	border-radius: 0% !important;
 	width: 100%;
 }
 
