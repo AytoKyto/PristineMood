@@ -21,7 +21,10 @@
 		</div>
 		<div class="footerNewslater">
 			<p class="titleNewslater">Newsletter</p>
-			<input class="imputNews" placeholder="Votre adresse mail" type="text">
+			<div class="wrapperNewsInput">
+				<input class="imputNews" placeholder="Votre adresse mail" type="text">
+				<button class="btnNews"></button>
+			</div>
 		</div>
 	</div>
 	<div class="bigWrapperFlex">

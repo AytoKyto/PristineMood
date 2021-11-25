@@ -804,6 +804,11 @@ textarea {
 	width: 50%;
 }
 
+.wrapperNewsInput {
+	display: flex;
+	justify-content: center;
+}
+
 .titleNewslater {
 	font-weight: normal;
 	font-size: 3.75em;
