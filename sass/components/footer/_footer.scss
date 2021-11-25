@@ -17,8 +17,8 @@
 }
 .nameSectionOne,
 .nameSectionTwo {
-    font-family: retiro-std-24pt, sans-serif;
-    font-weight: normal;
+    font-family: 'retiro-std-24pt', sans-serif;
+    font-weight: 400;
     font-size: 5.75em;
     line-height: 111px;
     margin: 0%;
@@ -27,22 +27,12 @@
     margin-top: -3vw;
     text-align: right;
 }
-.nameSubTitle {
-    font-family: Poppins-Thin;
-    font-weight: normal;
-    font-size: 0.7em;
-    line-height: 42px;
-    margin: 0%;
-    text-align: center;
-    margin-top: -1.5vw;
-    margin-left: 3vw;
-}
 .footerNewslater {
     width: 50%;
 }
 .titleNewslater {
     // font-family: "Blacker Display";
-    font-weight: normal;
+    font-weight: 400;
     font-size: 3.75em;
     text-align: left;
     color: #ddaa3a;
