@@ -45,7 +45,7 @@
 							<g id="Groupe_1931" data-name="Groupe 1931" transform="translate(-1666 -19)">
 								<g id="Ellipse_27" data-name="Ellipse 27" transform="translate(1666 19)" fill="none" stroke="#b18a48" stroke-width="1" opacity="0.35">
 									<circle cx="49" cy="49" r="49" stroke="none" />
-									<circle cx="49" cy="49" r="48.5" fill="none" />
+									<circle class="hoverSvg" cx="49" cy="49" r="48.5" fill="none" />
 								</g>
 								<path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M10.618,10.125l.5-3.258H7.992V4.753a1.629,1.629,0,0,1,1.837-1.76H11.25V.22A17.329,17.329,0,0,0,8.728,0C6.153,0,4.471,1.56,4.471,4.385V6.867H1.609v3.258H4.471V18H7.992V10.125Z" transform="translate(1708.391 59)" fill="#fff" />
 							</g>
@@ -55,7 +55,7 @@
 							<g id="Groupe_1935" data-name="Groupe 1935" transform="translate(-1666 -19)">
 								<g id="Ellipse_27" data-name="Ellipse 27" transform="translate(1666 19)" fill="none" stroke="#b18a48" stroke-width="1" opacity="0.35">
 									<circle cx="49" cy="49" r="49" stroke="none" />
-									<circle cx="49" cy="49" r="48.5" fill="none" />
+									<circle class="hoverSvg" cx="49" cy="49" r="48.5" fill="none" />
 								</g>
 								<g id="Groupe_1934" data-name="Groupe 1934" transform="translate(-67.486 32.729)">
 									<rect id="Rectangle_78" data-name="Rectangle 78" width="3.64" height="11.19" transform="translate(1775.059 32.081)" fill="#fff" />
@@ -69,7 +69,7 @@
 							<g id="Groupe_1936" data-name="Groupe 1936" transform="translate(-1666 -19)">
 								<g id="Ellipse_27" data-name="Ellipse 27" transform="translate(1666 19)" fill="none" stroke="#b18a48" stroke-width="1" opacity="0.35">
 									<circle cx="49" cy="49" r="49" stroke="none" />
-									<circle cx="49" cy="49" r="48.5" fill="none" />
+									<circle class="hoverSvg" cx="49" cy="49" r="48.5" fill="none" />
 								</g>
 								<path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M9,6.623a4.615,4.615,0,1,0,4.615,4.615A4.608,4.608,0,0,0,9,6.623Zm0,7.615a3,3,0,1,1,3-3A3.006,3.006,0,0,1,9,14.238Zm5.88-7.8A1.076,1.076,0,1,1,13.8,5.358,1.074,1.074,0,0,1,14.879,6.434Zm3.057,1.092a5.327,5.327,0,0,0-1.454-3.772A5.362,5.362,0,0,0,12.71,2.3c-1.486-.084-5.94-.084-7.427,0a5.354,5.354,0,0,0-3.772,1.45A5.344,5.344,0,0,0,.058,7.522c-.084,1.486-.084,5.94,0,7.427A5.327,5.327,0,0,0,1.512,18.72a5.369,5.369,0,0,0,3.772,1.454c1.486.084,5.94.084,7.427,0a5.327,5.327,0,0,0,3.772-1.454,5.362,5.362,0,0,0,1.454-3.772c.084-1.486.084-5.936,0-7.423Zm-1.92,9.017A3.038,3.038,0,0,1,14.3,18.255c-1.185.47-4,.361-5.306.361s-4.125.1-5.306-.361a3.038,3.038,0,0,1-1.711-1.711c-.47-1.185-.361-4-.361-5.306s-.1-4.125.361-5.306A3.038,3.038,0,0,1,3.693,4.221c1.185-.47,4-.361,5.306-.361s4.125-.1,5.306.361a3.038,3.038,0,0,1,1.711,1.711c.47,1.185.361,4,.361,5.306S16.486,15.363,16.016,16.544Z" transform="translate(1706.005 56.763)" fill="#fff" />
 							</g>
@@ -132,5 +132,6 @@
 <?php wp_footer(); ?>
 
 </body>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/menuBurger.js"></script>
 
 </html>
