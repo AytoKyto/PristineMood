@@ -1,0 +1,58 @@
+.wrapperFooter {
+    background-color: #040506;
+    color: #ffffff;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vw;
+}
+.bigWrapperFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.footerWrapperName {
+    width: 17vw;
+}
+.nameSectionOne,
+.nameSectionTwo {
+    font-family: retiro-std-24pt, sans-serif;
+    font-weight: normal;
+    font-size: 5.75em;
+    line-height: 111px;
+    margin: 0%;
+}
+.nameSectionTwo {
+    margin-top: -3vw;
+    text-align: right;
+}
+.nameSubTitle {
+    font-family: Poppins-Thin;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 42px;
+    margin: 0%;
+    text-align: center;
+    margin-top: -1.5vw;
+    margin-left: 3vw;
+}
+.footerNewslater {
+    width: 50%;
+}
+.titleNewslater {
+    // font-family: "Blacker Display";
+    font-weight: normal;
+    font-size: 3.75em;
+    text-align: left;
+    color: #ddaa3a;
+}
+.imputNews {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.1em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+}
