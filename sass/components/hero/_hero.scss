@@ -1,0 +1,35 @@
+.heroWrapper {
+    background: url(assets/bg_hero.png) #141711 no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    .heroContent {
+        text-align: center;
+        color: white;
+        margin-bottom: 4rem;
+        &-logo {
+            img {
+            }
+        }
+
+        h1 {
+            font-family: "retiro-std-24pt";
+            font-size: 3.7rem;
+            margin-bottom: 0.2rem;
+            ;
+        }
+
+        h2 {
+            font-weight: 200;
+            font-size: 2rem;
+            line-height: 1.4;
+            margin-top: 0.5rem;
+        }
+    }
+
+
+}
