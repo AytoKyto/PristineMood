@@ -53,7 +53,7 @@ function _s_woocommerce_scripts() {
 				url("' . $font_path . 'star.woff") format("woff"),
 				url("' . $font_path . 'star.ttf") format("truetype"),
 				url("' . $font_path . 'star.svg#star") format("svg");
-			font-weight: normal;
+			
 			font-style: normal;
 		}';
 

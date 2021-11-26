@@ -1,0 +1,81 @@
+.wrapperContact {
+    background-color: #e0dad6;
+}
+.contactTitle {
+    font-family: "Retiro Std 24pt";
+    font-size: 5em;
+    text-align: center;
+    color: #60831f;
+    margin: 0;
+}
+.desContact {
+    width: 738px;
+    font-family: "Poppins";
+    font-size: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+    color: #181d24;
+}
+.wpcf7-form {
+    width: 65vw;
+    margin: 0 auto;
+    margin-top: 4vw;
+}
+.wpcf7 {
+    padding-bottom: 5vw;
+}
+.wrapperContact7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 65vw;
+    
+}
+.wrapperContact7 span input,
+.wrapperContact7 span select,
+.wrapperContact7 span textarea,
+.wpcf7-checkbox,
+.checkbox-460,
+.wrapperFormText,
+.wrapperFormText p {
+    width: 32vw;
+    background-color: transparent;
+    border: none;
+    color: #8d654c;
+    font-family: "Poppins";
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 200;
+    border-bottom: 1px solid #ccbdb4;
+    height: 1.6vw;
+    margin-top: 3.6vw;
+}
+.wrapperContact7 span input:focus,
+.wrapperContact7 span select:focus,
+.wrapperContact7 span textarea:focus,
+.wpcf7-checkbox:focus,
+.checkbox-460:focus,
+.wrapperFormText:focus,
+.wrapperFormText p:focus {
+    border: 1px solid #ccbdb4;
+}
+.wpcf7-form p span input::placeholder {
+    color: #8d654c;
+}
+.file-796[type="file"] {
+    background-color: transparent;
+    border-bottom: 1px solid #ccbdb4;
+    color: #8d654c;
+}
+.wrapperFormText p {
+    font-family: Poppins;
+font-weight: 300;
+font-style: italic;
+font-size: 14px;
+line-height: 22px;
+text-align: left;
+color: #181d24;
+opacity: 0.5;
+}

@@ -15,13 +15,7 @@
 	<?php get_template_part('template-parts/footer/footer', 'widgets'); ?>
 	<div class="bigWrapperFlex">
 		<div class="footerWrapperName">
-		<svg xmlns="http://www.w3.org/2000/svg" width="353.236" height="151.342" viewBox="0 0 353.236 151.342">
-  <g id="logo_sans_" data-name="logo (sans)" transform="translate(0 -7.99)">
-    <text id="Pristine" transform="translate(0 78.99)" fill="#fff" font-size="92" font-family="retiro-std-24pt"><tspan x="0" y="0" letter-spacing="-0.03em">P</tspan><tspan y="0">ri</tspan><tspan y="0" letter-spacing="-0.004em">s</tspan><tspan y="0">tine</tspan></text>
-    <text id="mood" transform="translate(121.236 131.048)" fill="#fff" font-size="92" font-family="retiro-std-24pt"><tspan x="0" y="0">m</tspan><tspan y="0" letter-spacing="0.009em">o</tspan><tspan y="0" letter-spacing="0.01em">o</tspan><tspan y="0">d</tspan></text>
-    <text id="seeding_sprouting_blooming_" data-name="seeding, sprouting, blooming !" transform="translate(119.375 155.332)" fill="#fff" font-size="12" font-family="Poppins-Thin, Poppins" font-weight="200"><tspan x="0" y="0">seeding, sprouting, blooming !</tspan></text>
-  </g>
-</svg>
+			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logofooter.svg"/>
 
 		</div>
 		<div class="footerNewslater">
