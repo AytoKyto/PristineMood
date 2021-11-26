@@ -4,6 +4,7 @@
     padding-left: 10vw;
     padding-right: 10vw;
     padding-top: 5vw;
+    padding-bottom: 7vw;
 }
 .bigWrapperFlex {
     display: flex;
@@ -15,20 +16,16 @@
 .footerWrapperName {
     width: 17vw;
 }
-.nameSectionOne,
-.nameSectionTwo {
-    font-family: 'retiro-std-24pt', sans-serif;
-    font-weight: 400;
-    font-size: 5.75em;
-    line-height: 111px;
-    margin: 0%;
-}
 .nameSectionTwo {
     margin-top: -3vw;
     text-align: right;
 }
 .footerNewslater {
     width: 50%;
+}
+.wrapperNewsInput {
+    display: flex;
+    justify-content: center;
 }
 .titleNewslater {
     // font-family: "Blacker Display";
@@ -39,7 +36,7 @@
     margin: 0%;
 }
 .imputNews {
-    font-family: Poppins;
+    font-family: "Poppins";
     font-weight: 500;
     font-size: 1.1em;
     color: #ffffff;
@@ -49,4 +46,112 @@
     border-bottom: 1px solid #ffffff !important;
     border-radius: 0% !important;
     width: 100%;
+}
+.btnNews {
+    background-color: transparent;
+    border: none !important;
+}
+.wrapperSectionContactNetwork {
+    display: flex;
+    flex-direction: column;
+}
+.wrapperSectionContactNetwork div {
+    height: 50%;
+    width: 100%;
+}
+.wrapperContact {
+    font-family: "Poppins";
+    font-weight: normal;
+}
+.titleContactSection {
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 36px;
+    color: #ddaa3a;
+}
+.contactNumber {
+    font-size: 2.2em;
+    line-height: 48px;
+    color: #e9e4dc;
+    margin: 0%;
+}
+.contactMail {
+    font-size: 2.2em;
+    line-height: 48px;
+    color: #e9e4dc;
+    margin: 0%;
+}
+.ulInformation {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.infoFooter {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.wrapperNetwork {
+    margin-top: 2vw;
+}
+.networkIcon {
+    text-decoration: none;
+    margin-right: 1vw;
+}
+.wrapperLastLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vw;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+}
+.wrapperPolitique a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5vw;
+}
+.networkIcon:hover {
+    .hoverSvg {
+        fill: #ddaa3a;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapperFooter {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    .bigWrapperFlex {
+        flex-direction: column;
+    }
+    .titleNewslater {
+        text-align: left;
+    }
+    .wrapperSectionContactNetwork {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .wrapperInformation {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    .footerWrapperName {
+        width: 100%;
+    }
+    .footerWrapperName p {
+        text-align: left;
+    }
+    .footerNewslater,
+    .wrapperSectionContactNetwork,
+    .wrapperInformation {
+        width: 100%;
+    }
 }
