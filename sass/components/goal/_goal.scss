@@ -1,0 +1,161 @@
+.goalWrapper{
+    background: #f0ecea;
+    margin-top: -20px;
+    position: relative;
+    @media(min-width:$breakpoint-tablet-horizontal) {
+        padding: 0 0 30vh 0;
+    }
+    .goalContainer{
+        position: relative;
+        z-index: 2;
+            @media(min-width:$breakpoint-tablet-horizontal) {
+                display: flex;
+            }
+        .goalEducation{
+            @media(min-width:$breakpoint-tablet-horizontal) {
+            flex: 50%;
+            }
+            &-title{
+                h2{
+                    font-family: "retiro-std-24pt";
+                    color:#125D0C;
+                    font-size:4em;
+                    line-height: 1;
+                    margin: 0 0 2rem 0;
+                }
+            }
+            &-content{
+                @media(min-width:$breakpoint-tablet-horizontal) {
+                    display: flex;
+                }
+                .image{
+                    margin-top: 2vh;
+                    min-width: 35%;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    transform: translateY(0);
+                    img {
+                        max-width: 80%;
+                    }
+                    .arrow{
+                        transform: translateY(75%);
+                    }
+                    @media(min-width:$breakpoint-tablet-horizontal) {
+                        transform: translateY(-15%);
+                        .arrow{
+                            transform: rotate(-90deg) translateY(0);
+                            position:absolute;
+                            right:0;
+                            top:57%;
+                        }
+                    }
+                }
+                .text{
+                    padding: 6vw;
+                    text-align: center;
+                    background: url(assets/blob-orange.svg) no-repeat right center;
+                    background-size: 70%;
+                    background-position: left bottom;
+                    h3{
+                        font-family: 'Poppins';
+                        font-size:3rem;
+                        color: #EB5614;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        .goalCollaborative{
+            @media(min-width:$breakpoint-tablet-horizontal){
+                flex: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                transform: translateY(-15%);
+            }
+            .image{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                img{
+                    max-width: 80%;
+                }
+                .arrow {
+                    transform: translateY(75%);
+                    @media(min-width:$breakpoint-tablet-horizontal) {
+                        transform: translateY(15%);
+                    }
+                }
+                @media(min-width:$breakpoint-tablet-horizontal){
+                    position: relative;
+                    right: -15%;
+                    max-width:70%;
+                }
+            }
+            .text {
+                text-align: center;
+                padding: 6vw;
+                background: url(assets/blob-green.svg) no-repeat right center;
+                background-size: 30%;
+                background-position: center bottom;
+                @media(min-width:$breakpoint-tablet-horizontal) {
+                    padding: 0;
+                }
+                h3 {
+                    font-family: 'Poppins';
+                    font-size: 3rem;
+                    line-height: 1;
+                    color: #60831F;
+                    font-weight: 600;
+                }
+                p{
+                    @media(min-width:$breakpoint-tablet-horizontal) {
+                        padding: 0 10.5vw;
+                    }
+                }
+            }
+        }
+    }
+    .spider{
+        position: absolute;
+        left:-4vw;
+        bottom:0;
+        z-index: 1;
+        img {
+            width: 8vw;
+        }
+    }
+    .bee {
+        position: absolute;
+        left: 15%;
+        bottom: 30%;
+        z-index: 1;
+         img {
+             width: 8vw;
+         }
+    }
+    .branch {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+         img {
+             width: 25vw;
+         }
+    }
+    .branch-2 {
+        position: absolute;
+        right: -10%;
+        bottom: 10%;
+        z-index: 1;
+        img{
+            width:30vw;
+        }
+    }
+}

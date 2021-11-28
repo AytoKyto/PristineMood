@@ -1,0 +1,174 @@
+.canopyWrapper{
+    position: relative;
+    background: linear-gradient(185deg, #2f400f 50%, rgba(58, 80, 19, 0.69) 100%);
+    margin-top:-10px;
+    padding-top:10vh;
+    @media (min-width:$breakpoint-tablet-horizontal) {
+        padding-top:25vh;
+    }
+    .canopyTitle{
+        text-align: center;
+        color:white;
+        h2{
+            font-family: "retiro-std-24pt";
+            color: white;
+            font-size: 10vw;
+            line-height: 1;
+            margin: 0 0 2rem 0;
+            @media (min-width:$breakpoint-tablet-horizontal) {
+            font-size: 4em;
+            margin: 0 0 2rem 0;
+            }
+        }
+        p{
+            br{
+                display: none;
+            }
+            @media (min-width:$breakpoint-tablet-horizontal) {
+                br{
+                    display: block;
+                }
+                margin-bottom: 15vh;
+            }
+        }
+    }
+    .canopyContent{
+        display: flex;
+        flex-direction: column;
+        color:white;
+        position: relative;
+        z-index: 3;
+        @media (min-width:$breakpoint-tablet-horizontal) {
+            flex-direction: row;
+            div{
+                flex:33.333333%;
+                padding:4rem 2rem;
+                p{
+                    max-width: 85%;
+                }
+            }
+        }
+        @media (min-width:$breakpoint-desktop) {
+            p{
+                max-width: 70%;
+            }
+        }
+        h3 {
+            font-family: "retiro-std-24pt";
+            font-size: 2.6em;
+            line-height: 1.2;
+            margin: 0 0 2rem 0;
+        }
+        p{
+            font-size:0.9rem;
+        }
+        // seeding
+        .seeding{
+            img {
+                width: 20vw;
+            }
+            @media (min-width:$breakpoint-tablet-horizontal) {
+                transform: translateY(-25%) translateX(25%);
+                img {
+                    width: 5.5vw;
+                }
+            }
+        }
+        .budding {
+            img {
+                width: 20vw;
+            }
+            h3{
+                color:#007A3E;
+            }
+            p{
+                color:black;
+            }
+            .buddingWrapper {
+                background: white;
+                padding:2rem;
+                border-radius: 150px;
+                box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08)
+            }
+            @media (min-width:$breakpoint-tablet-horizontal) {
+                padding:0;
+                .buddingWrapper{
+                    margin:0 2.5vw;
+                    border-radius: 241px;
+                    min-height: 70vh;
+                }
+                img {
+                    width: 7.5vw;
+                    display: block;
+                    position: relative;
+                    margin: 0 auto;
+                }
+                p{
+                    margin: 0;
+                    max-width:100%;
+                }
+            }
+        }
+        .blooming {
+            img {
+                width: 20vw;
+            }
+
+            @media (min-width:$breakpoint-tablet-horizontal) {
+                img {
+                    width: 6vw;
+                }
+            }
+        }
+    }
+    .canopyFooter{
+        position: relative;
+        z-index: 2;
+        @media (min-width:$breakpoint-tablet-horizontal) {
+            margin-top: -17vh;
+        }
+    }
+
+    .poppy{
+        position: absolute;
+        top:-45vh;
+        left:-5vw;
+        img{
+            width:25vw;
+        }
+    }
+    .whale {
+        position: absolute;
+        top:-28vh;
+        right:0vw;
+        img {
+            width: 10vw;
+        }
+    }
+    .branch {
+        position: absolute;
+        top:-55vh;
+        right:-8vw;
+
+        img {
+            width: 50vw;
+        }
+    }
+    .panthere {
+       position: absolute;
+       left:-18vw;
+       top:-5vh;
+       img {
+           width: 35vw;
+       }
+    }
+    .branch-1{
+        position: absolute;
+        bottom:-45vh;
+        left:-12vw;
+        z-index: 5;
+        img {
+            width: 65vw;
+        }
+    }
+}

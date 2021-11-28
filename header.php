@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="https://use.typekit.net/eov5ijf.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400,600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<?php wp_head(); ?>
@@ -32,7 +32,8 @@
 	<div id="page" class="site">
 		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 		<header id="masthead" class="siteHeader">
-			<nav id="site-navigation" class="nav">
+			<!-- #site-navigation -->
+			<!-- <nav id="site-navigation" class="nav">
 				<div class="wrapperNav">
 					<p class="menuLink">Lorem ipsum</p>
 					<p class="menuLink">Lorem ipsum</p>
@@ -61,5 +62,6 @@
 						</svg>
 					</div>
 				</div>
-			</nav><!-- #site-navigation -->
-		</header><!-- #masthead -->
+			</nav> -->
+		</header>
+		<!-- #masthead -->

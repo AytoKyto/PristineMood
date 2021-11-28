@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="602" height="1020" viewBox="0 0 602 1020">
+  <defs>
+    <filter id="Rectangle_2380" x="0" y="0" width="602" height="1020" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2505" data-name="Rectangle 2505" width="190.547" height="230.247" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Phase" transform="translate(-275 -3390)">
+    <g transform="matrix(1, 0, 0, 1, 275, 3390)" filter="url(#Rectangle_2380)">
+      <rect id="Rectangle_2380-2" data-name="Rectangle 2380" width="482" height="900" rx="241" transform="translate(60 40)" fill="#fff"/>
+    </g>
+    <text id="Budding_You_have_already_started_your_journey_in_the_sustainability_sphere._You_declare_having_implemented_actions_from_our_grid_and_you_are_looking_to_go_further_and_building_your_sustainability_strategy_beyond." data-name="Budding 
+ 
+You have already started your journey in the sustainability sphere. You declare having implemented actions from our grid and you are looking to go further and building your sustainability strategy beyond." transform="translate(405 3736)" fill="#007a3e" font-size="60" font-family="Helvetica"><tspan x="0" y="46">Budding </tspan><tspan y="46" font-size="48"></tspan><tspan fill="#181d24" font-size="18" font-family="Poppins-Regular, Poppins"><tspan x="0" y="91"> </tspan><tspan x="0" y="118">You have already started your </tspan><tspan x="0" y="145">journey in the sustainability sphere. </tspan><tspan x="0" y="172">You declare having implemented </tspan><tspan x="0" y="199">actions from our grid and you are </tspan><tspan x="0" y="226">looking to go further and building your </tspan><tspan x="0" y="253">sustainability strategy beyond.</tspan></tspan></text>
+    <g id="Groupe_5004" data-name="Groupe 5004" transform="translate(480.726 3505.753)">
+      <g id="Groupe_5003" data-name="Groupe 5003" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Tracé_18663" data-name="Tracé 18663" d="M108.869,43.707a.3.3,0,0,0,.123.337c.754.44,13.04,12.646,16.7,20.073-4.795,21.028-13.734,50.277-29.373,72.716,1.241-11-4.952-26.089-5.656-26.5,1.071-2.029,11.1-22.546-8.275-40.594,0,0-10.941,25.2,7.975,40.6a.244.244,0,0,0-.13.093.282.282,0,0,0,.083.4c.7.791,7.044,16.376,5.225,27.1A95.381,95.381,0,0,1,81.7,153.614c-4.371,3.9-9.026,7.888-13.9,12,1.982-5.589.514-15.883.444-16.353a.28.28,0,0,0-.18-.217c1.021-2.232,7.724-18.886-10.677-36.453,0,0-8.438,25.335,10.3,36.553a.3.3,0,0,0-.053.2c.017.127,1.742,12.152-.871,17.144-1.535,1.291-3.08,2.586-4.651,3.914C42.186,187.151,19.84,205.963,0,230.02c.2.077.4.147.6.227C20.37,206.3,42.649,187.561,62.506,170.871c6.974-5.859,13.56-11.4,19.6-16.8a95.64,95.64,0,0,0,13.9-15.749c.023-.013.047-.013.063-.033.123-.16,11.875-15.405,22.209-18.392a.285.285,0,0,0,.194-.26c15.536,2.563,35.179-23.874,35.179-23.874-24.992-4.735-35.149,20.614-35.489,23.554a.388.388,0,0,1-.06-.013c-7.03,2.039-14.5,9.376-18.829,14.218,14.147-21.915,22.419-49.166,26.98-69.109,1.031-.3,9.513-2.686,15.7-2.362a.306.306,0,0,0,.327-.287.313.313,0,0,0-.3-.32C136.13,61.131,128.3,63.2,126.4,63.73c.24-1.041.46-2.062.681-3.056,5.923-3.8,16.737-6.256,16.847-6.283a.3.3,0,0,0,.234-.364.309.309,0,0,0-.37-.237c-.1.023-10.43,2.376-16.54,6.066,2.723-12.789,3.8-21.7,3.917-22.7C157.414,30.7,140.064,0,140.064,0c-31.762,21.859-12.806,34.888-9.433,36.9-.023.037-.057.063-.06.1-.027.294-1.258,10.984-4.671,26.183-4.057-7.551-15.572-19.062-16.6-19.663" transform="translate(0 0.002)" fill="#2b3f30"/>
+        <path id="Tracé_18664" data-name="Tracé 18664" d="M44.928,32.344A27.65,27.65,0,0,0,50.206,34.8c-5.252,2.212-7.871,4.865-7.578,5.105,19.927,15.776,48.365-2.229,48.365-2.229a63.224,63.224,0,0,0-22.065-5.779c10.511-7.494,16-22.636,16-22.636C53.96,10.376,44.18,31.9,44.928,32.344" transform="translate(99.557 21.635)" fill="#2b3f30"/>
+      </g>
+    </g>
+  </g>
+</svg>

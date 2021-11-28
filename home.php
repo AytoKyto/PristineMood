@@ -18,16 +18,13 @@ get_header();
 
 <main id="primary" class="site-main">
 	<!-- hero -->
-	<div class="heroWrapper">
-		<div class="heroContent">
-			<div class="heroContent-logo"><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logohero.svg"/></div>
-			<h1>Seeding, sporting, blooming !</h1>
-			<h2>Turn our luxury travel industry <br/>
-				into a leading responsibility and <br/>
-				sustainability </h2>
-		</div>
-	</div>
-
+		<?php get_template_part( 'template-parts/content', 'hero' ); ?>
+	<!-- goal -->
+		<?php get_template_part( 'template-parts/content', 'goal' ); ?>
+	<!-- collectively -->
+		<?php get_template_part( 'template-parts/content', 'collectively' ); ?>
+	<!-- canopy -->
+		<?php get_template_part( 'template-parts/content', 'canopy' ); ?>
 	<!-- Contact -->
 	<div class="wrapperContact">
 		<div class="contact">
