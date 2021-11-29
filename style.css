@@ -1693,7 +1693,7 @@ select::-ms-expand {
 @media (min-width: 1024px) {
 	.contactWrapper {
 		margin-top: -10px;
-		padding-top: 50px;
+		padding-top: 20vh;
 		padding-bottom: 0;
 	}
 }
