@@ -2603,6 +2603,9 @@ select::-ms-expand {
 
 .page-id-3 {
 	background: #E0DAD6;
+}
+
+.page-id-3 main {
 	margin: 0 auto;
 	width: 90vw;
 }
