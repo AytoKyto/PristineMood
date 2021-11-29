@@ -20,6 +20,7 @@
 		<div class="FooterNewsletterWrapper">
 			<p class="titleNewslater">SUBSCRIBE TO PRISTINE MOOD COMMUNICATIONS</p>
 			<?php echo do_shortcode( '[contact-form-7 id="6" title="Newsletter"]' ); ?>
+			<?php echo do_shortcode('[mc4wp_form id="14"]'); ?>
 		</div>
 
 	</div>
