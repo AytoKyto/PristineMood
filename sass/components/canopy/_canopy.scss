@@ -9,6 +9,11 @@
     .canopyTitle{
         text-align: center;
         color:white;
+        position: relative;
+        z-index: 12;
+        @media (min-width:$breakpoint-tablet-horizontal) {
+            z-index: 1;
+        }
         h2{
             font-family: "retiro-std-24pt";
             color: white;
@@ -88,7 +93,11 @@
                 background: white;
                 padding:2rem;
                 border-radius: 150px;
-                box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08)
+                box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
+                min-height: 80vh;
+                @media (min-width:$breakpoint-tablet-horizontal) {
+                    min-height: auto;
+                }
             }
             @media (min-width:$breakpoint-tablet-horizontal) {
                 padding:0;
@@ -136,44 +145,83 @@
 
     .poppy{
         position: absolute;
-        top:-45vh;
+        top:-15vh;
         left:-5vw;
         img{
             width:25vw;
         }
+        @media(min-width:$breakpoint-tablet-horizontal) {
+            top:-45vh;
+            left:-5vw;
+
+            img {
+                width: 25vw;
+            }
+        }
     }
     .whale {
         position: absolute;
-        top:-28vh;
+        top:-10vh;
         right:0vw;
         img {
-            width: 10vw;
+            width: 30vw;
+        }
+        @media(min-width:$breakpoint-tablet-horizontal) {
+            top:-28vh;
+            right:0vw;
+
+            img {
+                width: 10vw;
+            }
         }
     }
     .branch {
         position: absolute;
-        top:-55vh;
+        top:-15vh;
         right:-8vw;
 
         img {
-            width: 50vw;
+            width: 80vw;
+        }
+        @media(min-width:$breakpoint-tablet-horizontal) {
+            top:-55vh;
+            right:-8vw;
+            img {
+                width: 50vw;
+            }
         }
     }
     .panthere {
        position: absolute;
-       left:-18vw;
-       top:-5vh;
+       left:-28vw;
+       top:-6vh;
        img {
-           width: 35vw;
+           width: 55vw;
        }
+    @media(min-width:$breakpoint-tablet-horizontal) {
+        left:-18vw;
+        top:-5vh;
+        img {
+            width: 35vw;
+        }
+    }
     }
     .branch-1{
         position: absolute;
-        bottom:-45vh;
+        bottom:-25vh;
         left:-12vw;
         z-index: 13;
         img {
-            width: 65vw;
+            width: 85vw;
+        }
+        @media(min-width:$breakpoint-tablet-horizontal) {
+            bottom:-45vh;
+            left:-12vw;
+            z-index: 13;
+
+            img {
+                width: 65vw;
+            }
         }
     }
 }

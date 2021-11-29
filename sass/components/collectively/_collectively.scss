@@ -16,6 +16,11 @@
     }
     .collectivelyContainer{
         display: flex;
+        position: relative;
+        z-index: 12;
+        @media (min-width:$breakpoint-tablet-horizontal) {
+            z-index:1;
+        }
         flex-direction: column;
             .col-1 {
                 order:2;

@@ -15,7 +15,10 @@
 
 get_header();
 ?>
-
+<!-- cursor -->
+<!-- <div class="cursor-outer"></div>
+<div class="cursor-inner"></div> -->
+<!-- end cursor -->
 <main id="primary" class="site-main">
 	<!-- hero -->
 		<?php get_template_part( 'template-parts/content', 'hero' ); ?>

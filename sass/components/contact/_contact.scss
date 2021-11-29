@@ -12,6 +12,10 @@
     .beeContact{
         display: block;
         margin: 0 auto;
+        width:40vw;
+        @media (min-width:$breakpoint-tablet-horizontal) {
+            width: auto;
+        }
     }
     .contactTitle {
         font-family: "retiro-std-24pt";
@@ -27,7 +31,8 @@
         margin: 0 auto;
         text-align: center;
         color: #181d24;
-
+        position: relative;
+        z-index: 20;
         a {
             text-decoration: none;
             font-weight: 600;
@@ -39,7 +44,6 @@
             }
         }
     }
-
     .wpcf7-form,
     .contactForm {
         

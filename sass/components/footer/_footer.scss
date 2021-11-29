@@ -32,11 +32,13 @@
 }
 .titleNewslater {
     // font-family: "Blacker Display";
-    
     font-size: 1.3rem;
     text-align: left;
     color: white;
-    margin: 0%;
+    margin: 2rem 0 2rem 0;
+    @media (min-width:$breakpoint-tablet-horizontal) {
+    margin:0;
+    }
 }
 .imputNews {
     font-family: "Poppins";
@@ -170,6 +172,10 @@
     }
     .footerWrapperName {
         width: 100%;
+        margin-left: -7vw;
+        @media (min-width:$breakpoint-tablet-horizontal) {
+            margin-left: 0;
+        }
     }
     .footerWrapperName p {
         text-align: left;

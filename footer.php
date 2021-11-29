@@ -74,10 +74,10 @@
 				<div class="menuAnchor">
 					<ul>
 						<li><strong>MENU</strong></li>
-						<li><a href="#pristime-mood">PRISITINE MOOD</a></li>
-						<li><a href="#goal">OUR GOALS</a></li>
-						<li><a href="#collectively">COLLECTIVELY</a></li>
-						<li><a href="#canopy">SUSTAINABILITY CANOPY</a></li>
+						<li><a class="anchor" href="pristime-mood">PRISITINE MOOD</a></li>
+						<li><a class="anchor" href="goal">OUR GOALS</a></li>
+						<li><a class="anchor" href="collectively">COLLECTIVELY</a></li>
+						<li><a class="anchor" href="canopy">SUSTAINABILITY CANOPY</a></li>
 					</ul>
 				</div>
 				<div class="logoTraveller">

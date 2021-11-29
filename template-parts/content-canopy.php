@@ -1,4 +1,4 @@
-<div class="canopyWrapper">
+<div class="canopyWrapper" id="canopy">
 	<div class="poppy">
 		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/poppy.svg"/>
 	</div>

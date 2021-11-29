@@ -1,4 +1,4 @@
-<div class="collectivelyWrapper">
+<div class="collectivelyWrapper" id="collectively">
 	<div class="fish">
 		<img class="svgLogo femme" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/fish.png"/>
 	</div>

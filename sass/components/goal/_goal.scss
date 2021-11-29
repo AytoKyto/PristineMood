@@ -124,11 +124,18 @@
     }
     .spider{
         position: absolute;
-        left:-4vw;
-        bottom:0;
+        left:-12vw;
+        bottom:20vh;
         z-index: 1;
         img {
-            width: 8vw;
+            width: 24vw;
+        }
+        @media(min-width:$breakpoint-tablet-horizontal) {
+            left:-4vw;
+            bottom:0;
+            img {
+                width: 8vw;
+            }
         }
     }
     .bee {
@@ -136,26 +143,43 @@
         left: 15%;
         bottom: 30%;
         z-index: 1;
+        display: none;
+        @media(min-width:$breakpoint-tablet-horizontal) {
+        display: block;
          img {
              width: 8vw;
          }
+        }
     }
     .branch {
         position: absolute;
-        left: 0;
+        left: -5vw;
         bottom: 0;
         z-index: 1;
          img {
-             width: 25vw;
+             width: 55vw;
          }
+        @media(min-width:$breakpoint-tablet-horizontal) {
+            left: 0;
+            img {
+                width: 25vw;
+            }
+        }
     }
     .branch-2 {
         position: absolute;
         right: -10%;
-        bottom: 10%;
+        bottom: 50vh;
         z-index: 1;
         img{
-            width:30vw;
+            width:60vw;
+        }
+        @media(min-width:$breakpoint-tablet-horizontal) {
+            right: -10%;
+            bottom: 10%;
+            img {
+                width: 30vw;
+            }
         }
     }
 }

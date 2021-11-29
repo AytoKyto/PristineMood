@@ -1,4 +1,4 @@
-<div class="heroWrapper">
+<div class="heroWrapper" id="pristime-mood">
 	<!-- branch-1 -->
 	<div class="heroWrapper-branch branch-1 left">
 		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-hero-1.svg"/>
@@ -31,11 +31,11 @@
 		<div class="heroContent-logo"><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logohero.svg"/></div>
 		<h1>Seeding, budding, blooming !</h1>
 		<div class="heroContent-scroll">
-		Scroll
-		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/arrow-down.svg"/>
+			<a class="anchor" href="subhero">		Scroll
+		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/arrow-down.svg"/></a>
 		</div>
 	</div>
-	<div class="subHeroWrapper">
+	<div class="subHeroWrapper" id="subhero">
 		<div class="heroWrapper-branch branch-5">
 			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-hero-5.svg"/>
 		</div>
