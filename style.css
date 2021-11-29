@@ -1057,12 +1057,12 @@ select::-ms-expand {
 
 .heroWrapper .subHeroWrapper .branch-5 {
 	position: absolute;
-	top: 15vh;
-	left: -13vw;
+	top: 10vh;
+	left: -32vw;
 }
 
 .heroWrapper .subHeroWrapper .branch-5 img {
-	width: 30vw;
+	width: 28vw;
 }
 
 .heroWrapper .subHeroWrapper .subHeroContent {

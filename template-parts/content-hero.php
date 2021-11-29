@@ -37,7 +37,7 @@
 	</div>
 	<div class="subHeroWrapper">
 		<div class="heroWrapper-branch branch-5">
-		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-hero-5.svg"/>
+			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-hero-5.svg"/>
 		</div>
 		<div class="subHeroContent">
 			<h2>Pristine <span>Mood</span></h2>

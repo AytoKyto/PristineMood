@@ -81,7 +81,7 @@
 					</ul>
 				</div>
 				<div class="logoTraveller">
-					<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/LOGO-TM.png"/>
+					<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo-tm.svg"/>
 				</div>
 			</div>
 		</div>

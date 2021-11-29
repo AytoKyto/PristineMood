@@ -3,7 +3,7 @@
 		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/poppy.svg"/>
 	</div>
 	<div class="whale">
-		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/whale.svg"/>
+		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/whale.png"/>
 	</div>
 	<div class="branch">
 		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-canopy.svg"/>
