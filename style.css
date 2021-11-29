@@ -672,12 +672,12 @@ select::-ms-expand {
 }
 
 /* custom checkbox styling for contact form 7 checkbox */
-.wpcf7-checkbox label {
+.mc4wp-checkbox-contact-form-7 label {
 	position: relative;
 	cursor: pointer;
 }
 
-.wpcf7-checkbox input[type=checkbox] {
+.mc4wp-checkbox-contact-form-7 input[type=checkbox] {
 	/*position: relative;*/
 	position: absolute;
 	opacity: 0;
@@ -688,11 +688,11 @@ select::-ms-expand {
 	left: 0;
 }
 
-.wpcf7-checkbox input[type=checkbox]:hover {
+.mc4wp-checkbox-contact-form-7 input[type=checkbox]:hover {
 	cursor: pointer;
 }
 
-.wpcf7-checkbox input[type=checkbox] + span {
+.mc4wp-checkbox-contact-form-7 input[type=checkbox] + span {
 	color: #60831F;
 	display: flex;
 	align-content: center;
@@ -701,7 +701,7 @@ select::-ms-expand {
 	margin-left: 20px;
 }
 
-.wpcf7-checkbox input[type=checkbox] + span:before {
+.mc4wp-checkbox-contact-form-7 input[type=checkbox] + span:before {
 	display: block;
 	position: absolute;
 	content: '';
@@ -713,7 +713,7 @@ select::-ms-expand {
 	border: 1px solid #60831F;
 }
 
-.wpcf7-checkbox input[type=checkbox] + span:after {
+.mc4wp-checkbox-contact-form-7 input[type=checkbox] + span:after {
 	display: block;
 	position: absolute;
 	content: "\2713";
@@ -730,11 +730,11 @@ select::-ms-expand {
 	line-height: 25px;
 }
 
-.wpcf7-checkbox input[type=checkbox]:checked + span:before {
+.mc4wp-checkbox-contact-form-7 input[type=checkbox]:checked + span:before {
 	background: transparent;
 }
 
-.wpcf7-checkbox input[type=checkbox]:checked + span:after {
+.mc4wp-checkbox-contact-form-7 input[type=checkbox]:checked + span:after {
 	visibility: visible;
 }
 
