@@ -2573,6 +2573,7 @@ select::-ms-expand {
 .FooterNewsletterWrapper .newsletterWrapper input[type=submit] {
 	position: absolute;
 	right: 0%;
+	width: 50px;
 	top: 15px;
 	z-index: 3;
 	opacity: 0;
