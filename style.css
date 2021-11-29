@@ -571,53 +571,176 @@ input[type="submit"]:focus {
 	border-color: #aaa #bbb #bbb;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
-textarea {
-	color: #666;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	padding: 3px;
+form {
+	margin: 0;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="range"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="time"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="color"]:focus,
-textarea:focus {
-	color: #111;
+fieldset {
+	border: 0;
+	margin: 0 0 1.5rem;
+	padding: 0;
+}
+
+fieldset *:last-child {
+	margin-bottom: 0;
+}
+
+fieldset input,
+fieldset select,
+fieldset textarea {
+	margin: 0 0 1.875rem;
+}
+
+legend {
+	display: inline-block;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 0.9375rem;
+}
+
+label {
+	display: inline-block;
+	font-weight: 200;
+	color: #8D654C;
+	line-height: 1.5;
+	margin-bottom: 0.5rem;
+}
+
+[type="tel"], [type="url"], [type="text"], [type="date"], [type="email"], [type="search"], [type="number"], [type="password"], textarea, select {
+	appearance: none;
+	background-color: #E0DAD6;
+	border: 0;
+	border-bottom: 1px solid #8D654C;
+	border-radius: 0;
+	color: #8D654C;
+	font-weight: 300;
+	font-family: inherit;
+	font-size: inherit;
+	min-height: 40px;
+}
+
+[type="tel"]::-webkit-input-placeholder, [type="url"]::-webkit-input-placeholder, [type="text"]::-webkit-input-placeholder, [type="date"]::-webkit-input-placeholder, [type="email"]::-webkit-input-placeholder, [type="search"]::-webkit-input-placeholder, [type="number"]::-webkit-input-placeholder, [type="password"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #8D654C;
+	text-transform: uppercase;
+}
+
+[type="tel"]::-moz-placeholder, [type="url"]::-moz-placeholder, [type="text"]::-moz-placeholder, [type="date"]::-moz-placeholder, [type="email"]::-moz-placeholder, [type="search"]::-moz-placeholder, [type="number"]::-moz-placeholder, [type="password"]::-moz-placeholder, textarea::-moz-placeholder, select::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #8D654C;
+	text-transform: uppercase;
+}
+
+[type="tel"]:-ms-input-placeholder, [type="url"]:-ms-input-placeholder, [type="text"]:-ms-input-placeholder, [type="date"]:-ms-input-placeholder, [type="email"]:-ms-input-placeholder, [type="search"]:-ms-input-placeholder, [type="number"]:-ms-input-placeholder, [type="password"]:-ms-input-placeholder, textarea:-ms-input-placeholder, select:-ms-input-placeholder {
+	/* IE 10+ */
+	color: #8D654C;
+	text-transform: uppercase;
+}
+
+[type="tel"]:-moz-placeholder, [type="url"]:-moz-placeholder, [type="text"]:-moz-placeholder, [type="date"]:-moz-placeholder, [type="email"]:-moz-placeholder, [type="search"]:-moz-placeholder, [type="number"]:-moz-placeholder, [type="password"]:-moz-placeholder, textarea:-moz-placeholder, select:-moz-placeholder {
+	/* Firefox 18- */
+	color: #8D654C;
+	text-transform: uppercase;
+}
+
+input,
+select,
+textarea {
+	margin: 0 0 1rem;
+	padding: 10px 20px 10px 0;
+}
+
+textarea {
+	min-height: 100px;
+	border: 1px solid #8D654C;
+	padding: 20px;
+	resize: vertical;
+	width: 100%;
 }
 
 select {
-	border: 1px solid #ccc;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='32' height='32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline fill='none' stroke='rgb(141, 101, 76)' stroke-width='5'  points='2,9 16,25 30,9 '/%3E%3C/svg%3E");
+	background-position: calc(100% - 18px) center;
+	background-repeat: no-repeat;
+	background-size: 9px;
+	line-height: 1.75;
+	padding-right: 45px;
 }
 
-textarea {
-	width: 100%;
+select::-ms-expand {
+	display: none;
+}
+
+/* custom checkbox styling for contact form 7 checkbox */
+.wpcf7-checkbox label {
+	position: relative;
+	cursor: pointer;
+}
+
+.wpcf7-checkbox input[type=checkbox] {
+	/*position: relative;*/
+	position: absolute;
+	opacity: 0;
+	z-index: 10;
+	width: 25px;
+	height: 25px;
+	top: 0px;
+	left: 0;
+}
+
+.wpcf7-checkbox input[type=checkbox]:hover {
+	cursor: pointer;
+}
+
+.wpcf7-checkbox input[type=checkbox] + span {
+	color: #60831F;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 0.8rem;
+	margin-left: 20px;
+}
+
+.wpcf7-checkbox input[type=checkbox] + span:before {
+	display: block;
+	position: absolute;
+	content: '';
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	top: 0px;
+	left: 0px;
+	border: 1px solid #60831F;
+}
+
+.wpcf7-checkbox input[type=checkbox] + span:after {
+	display: block;
+	position: absolute;
+	content: "\2713";
+	height: 25px;
+	border-radius: 50%;
+	width: 25px;
+	color: white;
+	background: #60831F;
+	top: 0px;
+	left: 0;
+	visibility: hidden;
+	font-size: 18px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.wpcf7-checkbox input[type=checkbox]:checked + span:before {
+	background: transparent;
+}
+
+.wpcf7-checkbox input[type=checkbox]:checked + span:after {
+	visibility: visible;
+}
+
+.wpcf7-list-item-label {
+	margin-left: 40px;
+	display: inline-block;
 }
 
 /* Container
@@ -805,7 +928,7 @@ textarea {
 /* Hero
 --------------------------------------------- */
 .heroWrapper {
-	background: url(assets/bg_hero.png) #5B6D54 no-repeat;
+	background: url(assets/bg_hero-1.png) #5B6D54 no-repeat;
 	background-size: cover;
 	background-position: center top;
 	min-height: 130vh;
@@ -930,6 +1053,16 @@ textarea {
 	.heroWrapper .subHeroWrapper {
 		padding: 15vh 0 0 0;
 	}
+}
+
+.heroWrapper .subHeroWrapper .branch-5 {
+	position: absolute;
+	top: 15vh;
+	left: -13vw;
+}
+
+.heroWrapper .subHeroWrapper .branch-5 img {
+	width: 30vw;
 }
 
 .heroWrapper .subHeroWrapper .subHeroContent {
@@ -1383,7 +1516,7 @@ textarea {
 	flex-direction: column;
 	color: white;
 	position: relative;
-	z-index: 3;
+	z-index: 12;
 }
 
 @media (min-width: 1024px) {
@@ -1482,11 +1615,17 @@ textarea {
 .canopyWrapper .canopyFooter {
 	position: relative;
 	z-index: 2;
+	padding-bottom: 10px;
+}
+
+.canopyWrapper .canopyFooter img {
+	margin-bottom: -20px;
 }
 
 @media (min-width: 1024px) {
 	.canopyWrapper .canopyFooter {
 		margin-top: -17vh;
+		padding-bottom: 0;
 	}
 }
 
@@ -1534,11 +1673,232 @@ textarea {
 	position: absolute;
 	bottom: -45vh;
 	left: -12vw;
-	z-index: 5;
+	z-index: 13;
 }
 
 .canopyWrapper .branch-1 img {
 	width: 65vw;
+}
+
+/* contact
+--------------------------------------------- */
+.contactWrapper {
+	background-color: #E0DAD6;
+	position: relative;
+	z-index: 5;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
+@media (min-width: 1024px) {
+	.contactWrapper {
+		margin-top: -10px;
+		padding-top: 50px;
+		padding-bottom: 0;
+	}
+}
+
+.contactWrapper .beeContact {
+	display: block;
+	margin: 0 auto;
+}
+
+.contactWrapper .contactTitle {
+	font-family: "retiro-std-24pt";
+	font-size: 4em;
+	text-align: center;
+	color: #60831f;
+	margin: 0;
+}
+
+.contactWrapper .contactContent {
+	font-family: "Poppins";
+	font-size: 1em;
+	margin: 0 auto;
+	text-align: center;
+	color: #181d24;
+}
+
+.contactWrapper .contactContent a {
+	text-decoration: none;
+	font-weight: 600;
+	color: black;
+	transition: color ease-in 0.3s;
+}
+
+.contactWrapper .contactContent a:hover {
+	color: #60831f;
+}
+
+.contactWrapper .wpcf7-form,
+.contactWrapper .contactForm {
+	margin: 0 auto;
+	margin-top: 4vw;
+}
+
+.contactWrapper .wpcf7-form .inputWrap > label,
+.contactWrapper .contactForm .inputWrap > label {
+	display: block;
+}
+
+.contactWrapper .wpcf7-form .inputWrap [type="tel"], .contactWrapper .wpcf7-form .inputWrap [type="url"], .contactWrapper .wpcf7-form .inputWrap [type="text"], .contactWrapper .wpcf7-form .inputWrap [type="date"], .contactWrapper .wpcf7-form .inputWrap [type="email"], .contactWrapper .wpcf7-form .inputWrap [type="search"], .contactWrapper .wpcf7-form .inputWrap [type="number"], .contactWrapper .wpcf7-form .inputWrap [type="password"], .contactWrapper .wpcf7-form .inputWrap textarea, .contactWrapper .wpcf7-form .inputWrap select,
+.contactWrapper .contactForm .inputWrap [type="tel"],
+.contactWrapper .contactForm .inputWrap [type="url"],
+.contactWrapper .contactForm .inputWrap [type="text"],
+.contactWrapper .contactForm .inputWrap [type="date"],
+.contactWrapper .contactForm .inputWrap [type="email"],
+.contactWrapper .contactForm .inputWrap [type="search"],
+.contactWrapper .contactForm .inputWrap [type="number"],
+.contactWrapper .contactForm .inputWrap [type="password"],
+.contactWrapper .contactForm .inputWrap textarea,
+.contactWrapper .contactForm .inputWrap select {
+	min-width: 100%;
+}
+
+.contactWrapper .wpcf7-form .inputWrap .website,
+.contactWrapper .contactForm .inputWrap .website {
+	top: 4px;
+	position: relative;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.acceptance,
+.contactWrapper .contactForm .inputWrap.acceptance {
+	margin-top: 1.8rem;
+}
+
+.contactWrapper .wpcf7-form .inputWrap .optin-pristine,
+.contactWrapper .contactForm .inputWrap .optin-pristine {
+	margin-bottom: 2rem;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.message,
+.contactWrapper .contactForm .inputWrap.message {
+	margin-top: 1.5rem;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.message textarea,
+.contactWrapper .contactForm .inputWrap.message textarea {
+	margin-top: 1rem;
+}
+
+.contactWrapper .wpcf7-form .inputWrap .other,
+.contactWrapper .contactForm .inputWrap .other {
+	display: none;
+}
+
+@media (min-width: 1024px) {
+	.contactWrapper .wpcf7-form,
+	.contactWrapper .contactForm {
+		width: 65vw;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.contactWrapper .wpcf7-form .inputWrap,
+	.contactWrapper .contactForm .inputWrap {
+		flex: 50%;
+		padding: 0 0.7rem;
+	}
+	.contactWrapper .wpcf7-form .wpcf7-response-output,
+	.contactWrapper .contactForm .wpcf7-response-output {
+		flex: 100%;
+		text-align: center;
+		margin-top: 4rem;
+	}
+}
+
+.contactWrapper .wpcf7-form .rgpd,
+.contactWrapper .contactForm .rgpd {
+	font-size: 0.8rem;
+	font-weight: 200;
+	font-style: italic;
+	margin-top: 2rem;
+	padding: 0;
+}
+
+.contactWrapper .wpcf7-form .submitWrapper,
+.contactWrapper .contactForm .submitWrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.contactWrapper .wpcf7-form .submitWrapper input[type=submit],
+.contactWrapper .contactForm .submitWrapper input[type=submit] {
+	position: absolute;
+	background: #60831F;
+	color: white;
+	border: 0;
+	border-radius: 25px;
+	font-weight: 100;
+	padding: 0.7rem 4.5rem 0.7rem 3rem;
+	font-size: 1.4rem;
+}
+
+.contactWrapper .wpcf7-form .submitWrapper input[type=submit]:disabled,
+.contactWrapper .contactForm .submitWrapper input[type=submit]:disabled {
+	opacity: 0.6;
+}
+
+.contactWrapper .wpcf7-form .submitWrapper input[type=submit]:hover,
+.contactWrapper .contactForm .submitWrapper input[type=submit]:hover {
+	cursor: pointer;
+}
+
+.contactWrapper .wpcf7-form .submitWrapper .arrow,
+.contactWrapper .contactForm .submitWrapper .arrow {
+	position: relative;
+	top: 17px;
+	right: -25px;
+	background: url(assets/arrow-submit.svg) transparent no-repeat center center;
+	background-size: contain;
+	display: block;
+	width: 30px;
+	height: 10px;
+}
+
+.contactWrapper .wpcf7 {
+	padding-bottom: 5vw;
+}
+
+.contactWrapper .wrapperContact7 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0;
+	width: 65vw;
+}
+
+.contactWrapper .poppin {
+	position: absolute;
+	top: 15vh;
+	left: -13vw;
+}
+
+.contactWrapper .poppin img {
+	width: 30vw;
+}
+
+.contactWrapper .branch {
+	position: absolute;
+	left: -18vw;
+	top: 38vh;
+}
+
+.contactWrapper .branch img {
+	width: 35vw;
+}
+
+.contactWrapper .branch-1 {
+	position: absolute;
+	top: -5vh;
+	right: -10vw;
+	z-index: 3;
+}
+
+.contactWrapper .branch-1 img {
+	width: 35vw;
 }
 
 /* Posts and pages
@@ -1580,7 +1940,7 @@ textarea {
 /* Footer
 --------------------------------------------- */
 .wrapperFooter {
-	background-color: #5C7D1F;
+	background-color: #506F17;
 	color: #ffffff;
 	padding-left: 10vw;
 	padding-right: 10vw;
@@ -1597,7 +1957,13 @@ textarea {
 }
 
 .footerWrapperName {
-	width: 17vw;
+	width: 12vw;
+}
+
+@media (min-width: 1024px) {
+	.footerWrapperName {
+		width: 25vw;
+	}
 }
 
 .nameSectionTwo {
@@ -1615,9 +1981,9 @@ textarea {
 }
 
 .titleNewslater {
-	font-size: 3.75em;
+	font-size: 1.3rem;
 	text-align: left;
-	color: #ddaa3a;
+	color: white;
 	margin: 0%;
 }
 
@@ -1655,23 +2021,27 @@ textarea {
 
 .titleContactSection {
 	font-weight: 600;
-	font-size: 0.8em;
+	font-size: 1rem;
 	line-height: 36px;
-	color: #ddaa3a;
-}
-
-.contactNumber {
-	font-size: 2.2em;
-	line-height: 48px;
-	color: #e9e4dc;
-	margin: 0%;
+	color: white;
+	margin-bottom: 0;
 }
 
 .contactMail {
-	font-size: 2.2em;
+	margin: 0;
+}
+
+.contactMail a {
+	font-size: 1.2rem;
 	line-height: 48px;
 	color: #e9e4dc;
-	margin: 0%;
+	font-weight: 200;
+	text-decoration: none;
+	transition: color ease-in 0.3s;
+}
+
+.contactMail a:hover {
+	color: #ddaa3a;
 }
 
 .ulInformation {
@@ -1699,21 +2069,42 @@ textarea {
 
 .wrapperLastLine {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
 	align-items: center;
+	justify-content: flex-start;
 	margin-top: 2vw;
 	color: #fff;
 	font-family: "Poppins";
 	font-weight: 300;
 	font-size: 12px;
 	line-height: 30px;
+	padding: 0px 20px;
+}
+
+.wrapperLastLine p {
+	margin: 0;
+}
+
+@media (min-width: 1024px) {
+	.wrapperLastLine {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0;
+	}
 }
 
 .wrapperPolitique a {
 	text-decoration: none;
 	color: #fff;
-	margin-left: 5vw;
+	margin: 0 10px;
+}
+
+@media (min-width: 1024px) {
+	.wrapperPolitique a {
+		margin-left: 5vw;
+		margin-right: 0;
+	}
 }
 
 .networkIcon:hover .hoverSvg {
@@ -1750,6 +2141,126 @@ textarea {
 	.wrapperInformation {
 		width: 100%;
 	}
+}
+
+.anchorWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+@media (min-width: 1024px) {
+	.anchorWrapper {
+		flex-direction: row;
+		align-items: center;
+		align-content: center;
+	}
+	.anchorWrapper div {
+		flex: 50%;
+	}
+}
+
+.anchorWrapper .menuAnchor ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+
+.anchorWrapper .menuAnchor ul a {
+	text-decoration: none;
+	color: white;
+	transition: color ease-in 0.3s;
+}
+
+.anchorWrapper .menuAnchor ul a:hover {
+	color: #ddaa3a;
+}
+
+.anchorWrapper .logoTraveller {
+	margin-top: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+	.anchorWrapper .logoTraveller {
+		margin-top: 0;
+	}
+}
+
+.FooterNewsletterWrapper {
+	margin-top: 5vh;
+}
+
+@media (min-width: 1024px) {
+	.FooterNewsletterWrapper {
+		width: 50%;
+		margin-top: 0;
+	}
+}
+
+.FooterNewsletterWrapper .newsletterWrapper {
+	position: relative;
+}
+
+.FooterNewsletterWrapper .newsletterWrapper input[type=email] {
+	background: transparent;
+	color: white;
+	font-weight: 400;
+	border-color: white;
+	margin-top: 0.5rem;
+	max-width: 100%;
+	min-width: auto;
+}
+
+@media (min-width: 1024px) {
+	.FooterNewsletterWrapper .newsletterWrapper input[type=email] {
+		min-width: 100%;
+	}
+}
+
+.FooterNewsletterWrapper .newsletterWrapper input[type=email]::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: white !important;
+	text-transform: uppercase;
+}
+
+.FooterNewsletterWrapper .newsletterWrapper input[type=email]::-moz-placeholder {
+	/* Firefox 19+ */
+	color: white !important;
+	text-transform: uppercase;
+}
+
+.FooterNewsletterWrapper .newsletterWrapper input[type=email]:-ms-input-placeholder {
+	/* IE 10+ */
+	color: white !important;
+	text-transform: uppercase;
+}
+
+.FooterNewsletterWrapper .newsletterWrapper input[type=email]:-moz-placeholder {
+	/* Firefox 18- */
+	color: white !important;
+	text-transform: uppercase;
+}
+
+.FooterNewsletterWrapper .newsletterWrapper input[type=submit] {
+	position: absolute;
+	right: 0%;
+	top: 15px;
+	z-index: 3;
+	opacity: 0;
+}
+
+.FooterNewsletterWrapper .newsletterWrapper .arrow {
+	position: absolute;
+	top: 23px;
+	right: 0;
+	background: url(assets/arrow-submit.svg) transparent no-repeat center center;
+	background-size: contain;
+	display: block;
+	width: 40px;
+	height: 17px;
+	z-index: 2;
 }
 
 /* Widgets
@@ -1851,97 +2362,6 @@ textarea {
 
 /* Home
 --------------------------------------------- */
-.wrapperContact {
-	background-color: #EFECEA;
-}
-
-.contactTitle {
-	font-family: "Retiro Std 24pt";
-	font-size: 5em;
-	text-align: center;
-	color: #60831f;
-	margin: 0;
-}
-
-.desContact {
-	width: 738px;
-	font-family: "Poppins";
-	font-size: 1.2em;
-	margin: 0 auto;
-	text-align: center;
-	color: #181d24;
-}
-
-.wpcf7-form {
-	width: 65vw;
-	margin: 0 auto;
-	margin-top: 4vw;
-}
-
-.wpcf7 {
-	padding-bottom: 5vw;
-}
-
-.wrapperContact7 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
-	margin: 0;
-	width: 65vw;
-}
-
-.wrapperContact7 span input,
-.wrapperContact7 span select,
-.wrapperContact7 span textarea,
-.wpcf7-checkbox,
-.checkbox-460,
-.wrapperFormText,
-.wrapperFormText p {
-	width: 32vw;
-	background-color: transparent;
-	border: none;
-	color: #8d654c;
-	font-family: "Poppins";
-	font-size: 1.2em;
-	text-transform: uppercase;
-	font-weight: 200;
-	border-bottom: 1px solid #ccbdb4;
-	height: 1.6vw;
-	margin-top: 3.6vw;
-}
-
-.wrapperContact7 span input:focus,
-.wrapperContact7 span select:focus,
-.wrapperContact7 span textarea:focus,
-.wpcf7-checkbox:focus,
-.checkbox-460:focus,
-.wrapperFormText:focus,
-.wrapperFormText p:focus {
-	border: 1px solid #ccbdb4;
-}
-
-.wpcf7-form p span input::placeholder {
-	color: #8d654c;
-}
-
-.file-796[type="file"] {
-	background-color: transparent;
-	border-bottom: 1px solid #ccbdb4;
-	color: #8d654c;
-}
-
-.wrapperFormText p {
-	font-family: Poppins;
-	font-weight: 300;
-	font-style: italic;
-	font-size: 14px;
-	line-height: 22px;
-	text-align: left;
-	color: #181d24;
-	opacity: 0.5;
-}
-
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/

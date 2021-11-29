@@ -12,28 +12,26 @@
 
 ?>
 <footer id="colophon" class="wrapperFooter">
-	<?php get_template_part('template-parts/footer/footer', 'widgets'); ?>
+	<?php get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
 	<div class="bigWrapperFlex">
 		<div class="footerWrapperName">
 			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logofooter.svg"/>
+		</div>
+		<div class="FooterNewsletterWrapper">
+			<p class="titleNewslater">SUBSCRIBE TO PRISTINE MOOD COMMUNICATIONS</p>
+			<?php echo do_shortcode( '[contact-form-7 id="6" title="Newsletter"]' ); ?>
+		</div>
 
-		</div>
-		<div class="footerNewslater">
-			<p class="titleNewslater">Newsletter</p>
-			<input class="imputNews" placeholder="Votre adresse mail" type="text">
-			<button class="buttonNews"></button>
-		</div>
 	</div>
 	<div class="bigWrapperFlex">
 		<div class="wrapperSectionContactNetwork">
 			<div class="wrapperContact">
-				<p class="titleContactSection">Contact</p>
-				<p class="contactNumber">06.00.00.00.00</p>
-				<p class="contactMail">adresse@mail.contact</p>
+				<p class="titleContactSection">CONTACT US</p>
+				<p class="contactMail"><a href="mailto:explorer@pristinemood.com">explorer@pristinemood.com<a></p>
 			</div>
 			<div class="wrapperNetwork">
 				<div class="wrapperNetworkIcon">
-					<a href="#" class="networkIcon"><svg xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98">
+					<a href="#" class="networkIcon"><svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 98 98">
 							<g id="Groupe_1931" data-name="Groupe 1931" transform="translate(-1666 -19)">
 								<g id="Ellipse_27" data-name="Ellipse 27" transform="translate(1666 19)" fill="none" stroke="#b18a48" stroke-width="1" opacity="0.35">
 									<circle cx="49" cy="49" r="49" stroke="none" />
@@ -43,7 +41,7 @@
 							</g>
 						</svg>
 					</a>
-					<a href="#" class="networkIcon"><svg xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98">
+					<a href="#" class="networkIcon"><svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 98 98">
 							<g id="Groupe_1935" data-name="Groupe 1935" transform="translate(-1666 -19)">
 								<g id="Ellipse_27" data-name="Ellipse 27" transform="translate(1666 19)" fill="none" stroke="#b18a48" stroke-width="1" opacity="0.35">
 									<circle cx="49" cy="49" r="49" stroke="none" />
@@ -51,13 +49,13 @@
 								</g>
 								<g id="Groupe_1934" data-name="Groupe 1934" transform="translate(-67.486 32.729)">
 									<rect id="Rectangle_78" data-name="Rectangle 78" width="3.64" height="11.19" transform="translate(1775.059 32.081)" fill="#fff" />
-									<path id="Tracé_61" data-name="Tracé 61" d="M168.468,160.131c-.039-.012-.075-.025-.116-.037s-.1-.02-.148-.028a3.261,3.261,0,0,0-.653-.066,5.057,5.057,0,0,0-3.911,2.139V160H160v11.19h3.64v-6.1s2.751-3.831,3.911-1.017v7.121h3.639v-7.551A3.629,3.629,0,0,0,168.468,160.131Z" transform="translate(1619.951 -127.919)" fill="#fff" />
+									<path id="Tracé_61" data-name ="Tracé 61" d="M168.468,160.131c-.039-.012-.075-.025-.116-.037s-.1-.02-.148-.028a3.261,3.261,0,0,0-.653-.066,5.057,5.057,0,0,0-3.911,2.139V160H160v11.19h3.64v-6.1s2.751-3.831,3.911-1.017v7.121h3.639v-7.551A3.629,3.629,0,0,0,168.468,160.131Z" transform="translate(1619.951 -127.919)" fill="#fff" />
 									<ellipse id="Ellipse_14" data-name="Ellipse 14" cx="1.986" cy="1.986" rx="1.986" ry="1.986" transform="translate(1774.486 27.271)" fill="#fff" />
 								</g>
 							</g>
 						</svg>
 						</i></a>
-					<a href="#" class="networkIcon"><svg xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98">
+					<a href="#" class="networkIcon"><svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 98 98">
 							<g id="Groupe_1936" data-name="Groupe 1936" transform="translate(-1666 -19)">
 								<g id="Ellipse_27" data-name="Ellipse 27" transform="translate(1666 19)" fill="none" stroke="#b18a48" stroke-width="1" opacity="0.35">
 									<circle cx="49" cy="49" r="49" stroke="none" />
@@ -70,50 +68,37 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrapperInformation">
-			<ul class="ulInformation">
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-			</ul>
-		</div>
-		<div class="wrapperInformation">
-			<ul class="ulInformation">
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-			</ul>
-		</div>
-		<div class="wrapperInformation">
-			<ul class="ulInformation">
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-			</ul>
-		</div>
-		<div class="wrapperInformation">
-			<ul class="ulInformation">
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-				<li><a class="infoFooter" href="#">Lorem Ipsum</a></li>
-			</ul>
+		<div class="footerNewslater">
+			
+			<div class="anchorWrapper">
+				<div class="menuAnchor">
+					<ul>
+						<li><strong>MENU</strong></li>
+						<li><a href="#pristime-mood">PRISITINE MOOD</a></li>
+						<li><a href="#goal">OUR GOALS</a></li>
+						<li><a href="#collectively">COLLECTIVELY</a></li>
+						<li><a href="#canopy">SUSTAINABILITY CANOPY</a></li>
+					</ul>
+				</div>
+				<div class="logoTraveller">
+					<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/LOGO-TM.png"/>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="wrapperLastLine">
 		<div class="wrapperCopyright">
-			<p class="copyright">© 2022, Pristine Mood by Serandipians </p>
+			<p class="copyright">© 2022, Pristine Mood by TRAVELER MADE </p>
+		</div>
+		<div class="wrapperCopyright">
+			<p class="copyright">Création : agence LA NAGEUSE </p>
+		</div>
+		<div class="wrapperLegend">
+			* CSR : Corporate Social Responsibility
 		</div>
 		<div class="wrapperPolitique">
-			<a href="" class="politique">Politique de confidentialité</a>
-			<a href="" class="mention">Mention légal</a>
+			<a href="" class="politique">Privacy Policy</a>
+			<a href="" class="mention">Terms & Condition</a>
 		</div>
 	</div>
 	<!-- .site-info -->
@@ -124,6 +109,5 @@
 <?php wp_footer(); ?>
 
 </body>
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/menuBurger.js"></script>
 
 </html>

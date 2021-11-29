@@ -1,33 +1,229 @@
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
-textarea {
-	color: $color__text-input;
-	border: 1px solid $color__border-input;
-	border-radius: 3px;
-	padding: 3px;
+$input-selectors: '[type="tel"], [type="url"], [type="text"], [type="date"], [type="email"], [type="search"], [type="number"], [type="password"], textarea, select';
 
-	&:focus {
-		color: $color__text-input-focus;
+form {
+	margin: 0;
+}
+
+fieldset {
+	border: 0;
+	margin: 0 0 1.5rem;
+	padding: 0;
+
+	*:last-child {
+		margin-bottom: 0;
+	}
+
+	input,
+	select,
+	textarea {
+		margin: 0 0 1.875rem;
 	}
 }
 
-select {
-	border: 1px solid $color__border-input;
+legend {
+	display: inline-block;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 0.9375rem;
+}
+
+label {
+	display: inline-block;
+	font-weight: 200;
+	color: #8D654C;
+	line-height: 1.5;
+	margin-bottom: 0.5rem;
+}
+
+#{$input-selectors} {
+	appearance: none;
+	background-color: #E0DAD6;
+	border:0;
+	border-bottom: 1px solid #8D654C;
+	border-radius: 0;
+	color: #8D654C;
+	font-weight: 300;
+	font-family: inherit;
+	font-size: inherit;
+	min-height: 40px;
+	&::-webkit-input-placeholder {
+		/* Chrome/Opera/Safari */
+		color: #8D654C;
+		text-transform: uppercase;
+	}
+
+	&::-moz-placeholder {
+		/* Firefox 19+ */
+		color: #8D654C;
+		text-transform: uppercase;
+	}
+
+	&:-ms-input-placeholder {
+		/* IE 10+ */
+		color: #8D654C;
+		text-transform: uppercase;
+	}
+
+	&:-moz-placeholder {
+		/* Firefox 18- */
+		color: #8D654C;
+		text-transform: uppercase;
+	}
+}
+
+input,
+select,
+textarea {
+	margin: 0 0 1rem;
+	padding: 10px 20px 10px 0;
 }
 
 textarea {
+	min-height: 100px;
+	border: 1px solid #8D654C;
+	padding: 20px;
+	resize: vertical;
 	width: 100%;
 }
+
+select {
+	$color-text-rgb: red(#8D654C), green(#8D654C), blue(#8D654C);
+
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='32' height='32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline fill='none' stroke='rgb(#{$color-text-rgb})' stroke-width='5'  points='2,9 16,25 30,9 '/%3E%3C/svg%3E");
+	background-position: calc(100% - 18px) center;
+	background-repeat: no-repeat;
+	background-size: 9px;
+	line-height: 1.75;
+	padding-right: 45px;
+
+	&::-ms-expand {
+		display: none;
+	}
+}
+
+// [type="checkbox"],
+// [type="radio"] {
+// 	opacity: 0;
+// 	pointer-events: none;
+// 	position: absolute;
+// 	width: 1px;
+
+// 	&,
+// 	&:hover,
+// 	&:focus {
+// 		border-color: #8D654C;
+// 		outline: 0;
+// 	}
+
+// 		&:checked {
+// 			+label::before {
+// 				background-color: #8D654C;
+// 				border-color: #8D654C;
+// 				box-shadow: inset 0 0 0 2px #fff;
+// 			}
+// 		}
+// 	}
+// 	+label {
+// 		display: inline-block;
+// 		padding-left: 1.875rem;
+// 		position: relative;
+// 		width: 100%;
+
+// 		&::before {
+// 			background-color: #fff;
+// 			border: 1px solid #8D654C;
+// 			border-radius: 2px;
+// 			content: "";
+// 			display: block;
+// 			height: 15px;
+// 			left: 0;
+// 			margin: 0;
+// 			padding: 0;
+// 			position: absolute;
+// 			top: 4px;
+// 			transition: border-color 0.2s ease, background-color 0.2s ease;
+// 			width: 15px;
+// 		}
+// 	}
+
+
+
+// [type='radio'] {
+// 	+label::before {
+// 		border-radius: 50%;
+// 	}
+// }
+
+/* custom checkbox styling for contact form 7 checkbox */
+.wpcf7-checkbox label {
+	position: relative;
+	cursor: pointer;
+}
+
+.wpcf7-checkbox input[type=checkbox] {
+	/*position: relative;*/
+	position: absolute;
+	opacity:0;
+	z-index: 10;
+	width: 25px;
+	height: 25px;
+	top: 0px;
+	left: 0;
+}
+.wpcf7-checkbox input[type=checkbox]:hover {
+	cursor: pointer;
+}
+
+.wpcf7-checkbox input[type=checkbox]+span {
+	color:#60831F;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 0.8rem;
+	margin-left: 20px;
+}
+
+.wpcf7-checkbox input[type=checkbox]+span:before {
+	display: block;
+	position: absolute;
+	content: '';
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	top: 0px;
+	left: 0px;
+	border: 1px solid #60831F;
+}
+
+.wpcf7-checkbox input[type=checkbox]+span:after {
+	display: block;
+	position: absolute;
+	content: "\2713";
+	height: 25px;
+	border-radius: 50%;
+	width: 25px;
+	color:white;
+	background: #60831F;
+	top: 0px;
+	left: 0;
+	visibility: hidden;
+	font-size: 18px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.wpcf7-checkbox input[type=checkbox]:checked+span:before {
+	background: transparent;
+}
+
+.wpcf7-checkbox input[type=checkbox]:checked+span:after {
+	visibility: visible;
+}
+
+.wpcf7-list-item-label {
+	margin-left: 40px;
+	display: inline-block;
+}
+
+// submit
+

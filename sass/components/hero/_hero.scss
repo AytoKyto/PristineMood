@@ -1,5 +1,5 @@
 .heroWrapper {
-    background: url(assets/bg_hero.png)#5B6D54 no-repeat;
+    background: url(assets/bg_hero-1.png)#5B6D54 no-repeat;
     background-size: cover;
     background-position: center top;
     min-height: 130vh;
@@ -123,7 +123,15 @@
         @media (min-width:$breakpoint-tablet-horizontal) {
             padding: 15vh 0 0 0 ;
         }
+        .branch-5{
+            position: absolute;
+            top: 15vh;
+            left: -13vw;
 
+            img {
+                width: 30vw;
+            }
+        }
         .subHeroContent {
             color: white;
 

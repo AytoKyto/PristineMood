@@ -26,23 +26,8 @@ get_header();
 	<!-- canopy -->
 		<?php get_template_part( 'template-parts/content', 'canopy' ); ?>
 	<!-- Contact -->
-	<div class="wrapperContact">
-		<div class="contact">
-			<div>
-				<p class="contactTitle">Contact us</p>
-				<p class="desContact">If you are a Serandipian member or partner check your email.
-					Formstack link
-					Are you interested to learn more about Pristine Mood ?
-					Link to public form
-					This is an exclusive launch for Serandipian Members and Partners.
-					Click here to find out more about Serandipians.</p>
-			</div>
-			<div class="contact__form">
-				<?php echo do_shortcode( '[contact-form-7 id="5" title="Contact form 1"]' ); ?>
-			</div>
-		</div>
-	</div>
-
+	<!-- canopy -->
+		<?php get_template_part( 'template-parts/content', 'contact' ); ?>
 </main><!-- #main -->
 
 <?php

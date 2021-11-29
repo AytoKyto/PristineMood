@@ -1,0 +1,175 @@
+.contactWrapper {
+    background-color: #E0DAD6;
+    position: relative;
+    z-index: 5;
+    padding-top:10vh;
+    padding-bottom: 10vh;
+    @media (min-width:$breakpoint-tablet-horizontal) {
+        margin-top: -10px;
+        padding-top:50px;
+        padding-bottom: 0;
+    }
+    .beeContact{
+        display: block;
+        margin: 0 auto;
+    }
+    .contactTitle {
+        font-family: "retiro-std-24pt";
+        font-size: 4em;
+        text-align: center;
+        color: #60831f;
+        margin: 0;
+    }
+
+    .contactContent {
+        font-family: "Poppins";
+        font-size: 1em;
+        margin: 0 auto;
+        text-align: center;
+        color: #181d24;
+
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            color: black;
+            transition: color ease-in 0.3s;
+
+            &:hover {
+                color: #60831f;
+            }
+        }
+    }
+
+    .wpcf7-form,
+    .contactForm {
+        
+        margin: 0 auto;
+        margin-top: 4vw;
+        .inputWrap {
+            >label{
+                display: block;
+            }
+            #{$input-selectors} {
+                min-width: 100%;
+            }
+            .website{
+                top: 4px;
+                position: relative;
+            }
+            &.acceptance {
+                margin-top: 1.8rem;
+            } 
+            .optin-pristine{
+                margin-bottom: 2rem;
+            }
+            &.message {
+                margin-top: 1.5rem;
+                textarea {
+                    margin-top: 1rem;
+                }
+            }
+            .other{
+                display: none;
+            }
+        }
+        @media (min-width:$breakpoint-tablet-horizontal) {
+            width: 65vw;
+            display: flex;
+            flex-wrap: wrap;
+            .inputWrap{
+                flex:50%;
+                padding: 0 0.7rem;
+            }
+            .wpcf7-response-output{
+                flex:100%;
+                text-align: center;
+                margin-top: 4rem;
+            }
+        }
+        .rgpd {
+            font-size: 0.8rem;
+            font-weight: 200;
+            font-style: italic;
+            margin-top: 2rem;
+            padding: 0;
+        }
+        .submitWrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            input[type=submit] {
+                position: absolute;
+                background: #60831F;
+                color: white;
+                border:0;
+                border-radius: 25px;
+                font-weight: 100;
+                padding:0.7rem 4.5rem 0.7rem 3rem;
+                font-size:1.4rem;
+                &:disabled{
+                    opacity: 0.6;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .arrow {
+                position: relative;
+                top:17px;
+                right:-25px;
+                background: url(assets/arrow-submit.svg) transparent no-repeat center center;
+                background-size: contain;
+                display: block;
+                width:30px;
+                height: 10px;
+            }
+        }
+    }
+
+    .wpcf7 {
+        padding-bottom: 5vw;
+    }
+
+    .wrapperContact7 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        width: 65vw;
+        
+
+    }
+    .poppin {
+        position: absolute;
+        top: 15vh;
+        left: -13vw;
+
+        img {
+            width: 30vw;
+        }
+    }
+
+    .branch {
+        position: absolute;
+        left: -18vw;
+        top: 38vh;
+
+        img {
+            width: 35vw;
+        }
+    }
+
+    .branch-1 {
+        position: absolute;
+        top: -5vh;
+        right: -10vw;
+        z-index: 3;
+
+        img {
+            width: 35vw;
+        }
+    }
+}
+

@@ -1,5 +1,5 @@
 .wrapperFooter {
-    background-color: #5C7D1F;
+    background-color: #506F17;
     color: #ffffff;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -14,7 +14,10 @@
     padding: 0px 20px;
 }
 .footerWrapperName {
-    width: 17vw;
+    width: 12vw;
+    @media (min-width:$breakpoint-tablet-horizontal) {
+        width: 25vw;
+    }
 }
 .nameSectionTwo {
     margin-top: -3vw;
@@ -30,9 +33,9 @@
 .titleNewslater {
     // font-family: "Blacker Display";
     
-    font-size: 3.75em;
+    font-size: 1.3rem;
     text-align: left;
-    color: #ddaa3a;
+    color: white;
     margin: 0%;
 }
 .imputNews {
@@ -65,21 +68,24 @@
 }
 .titleContactSection {
     font-weight: 600;
-    font-size: 0.8em;
+    font-size: 1rem;
     line-height: 36px;
-    color: #ddaa3a;
-}
-.contactNumber {
-    font-size: 2.2em;
-    line-height: 48px;
-    color: #e9e4dc;
-    margin: 0%;
+    color: white;
+    margin-bottom: 0;
 }
 .contactMail {
-    font-size: 2.2em;
-    line-height: 48px;
-    color: #e9e4dc;
-    margin: 0%;
+    a{
+        font-size: 1.2rem;
+        line-height: 48px;
+        color: #e9e4dc;
+        font-weight: 200;
+        text-decoration: none;
+        transition: color ease-in 0.3s;
+        &:hover{
+            color:#ddaa3a;
+        }
+    }
+        margin: 0;
 }
 .ulInformation {
     list-style: none;
@@ -103,20 +109,39 @@
 }
 .wrapperLastLine {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     margin-top: 2vw;
     color: #fff;
     font-family: "Poppins";
     font-weight: 300;
     font-size: 12px;
     line-height: 30px;
+    padding: 0px 20px;
+    p{
+        margin: 0;
+    }
+    @media (min-width:$breakpoint-tablet-horizontal) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
 }
-.wrapperPolitique a {
-    text-decoration: none;
-    color: #fff;
-    margin-left: 5vw;
+.wrapperPolitique {
+    a {
+        text-decoration: none;
+        color: #fff;
+        margin:0 10px;
+        @media (min-width:$breakpoint-tablet-horizontal) {
+        margin-left: 5vw;
+        margin-right: 0;
+        }
+    }
+}
+.wrapperLegend{
+    
 }
 .networkIcon:hover {
     .hoverSvg {
@@ -155,3 +180,107 @@
         width: 100%;
     }
 }
+.anchorWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @media (min-width:$breakpoint-tablet-horizontal) {
+        div{
+            flex:50%;
+        }
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+
+    }
+    .menuAnchor ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        a{
+            text-decoration: none;
+            color: white;
+             transition: color ease-in 0.3s;
+             &:hover {
+                 color: #ddaa3a;
+             }
+        }
+    }
+    .logoTraveller {
+        margin-top: 2.5rem;
+        @media (min-width:$breakpoint-tablet-horizontal) {
+            margin-top: 0;
+        }
+    }
+}
+.FooterNewsletterWrapper{
+    margin-top: 5vh;
+    @media (min-width:$breakpoint-tablet-horizontal) {
+        width:50%;
+        margin-top: 0;
+    }
+    .newsletterWrapper {
+        position: relative;
+        
+        input[type=email] {
+            background: transparent;
+            color: white;
+            font-weight: 400;
+            border-color: white;
+            margin-top: 0.5rem;
+            max-width: 100%;
+            min-width: auto;
+
+            @media (min-width:$breakpoint-tablet-horizontal) {
+                min-width: 100%;
+            }
+
+            &::-webkit-input-placeholder {
+                /* Chrome/Opera/Safari */
+                color: white !important;
+                text-transform: uppercase;
+            }
+
+            &::-moz-placeholder {
+                /* Firefox 19+ */
+                color: white !important;
+                text-transform: uppercase;
+            }
+
+            &:-ms-input-placeholder {
+                /* IE 10+ */
+                color: white !important;
+                text-transform: uppercase;
+            }
+
+            &:-moz-placeholder {
+                /* Firefox 18- */
+                color: white !important;
+                text-transform: uppercase;
+            }
+        }
+
+        input[type=submit] {
+            position: absolute;
+            right: 0%;
+            top: 15px;
+            z-index: 3;
+            opacity: 0;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 23px;
+            right: 0;
+            background: url(assets/arrow-submit.svg) transparent no-repeat center center;
+            background-size: contain;
+            display: block;
+            width: 40px;
+            height: 17px;
+            z-index: 2;
+        }
+    }
+}
+
