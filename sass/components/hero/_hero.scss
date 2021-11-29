@@ -156,6 +156,10 @@
         }
 
         &-scroll {
+                margin-left: -6vw;
+                @media (min-width:$breakpoint-tablet-horizontal) {
+                    margin-left: -2vw;
+                }
             a{
                 display: flex;
                 flex-direction: column;
@@ -220,11 +224,15 @@
             }
 
             p {
-                font-size: 3vw;
+                font-size: 6vw;
                 font-weight: 200;
                 line-height: 1.4;
                 text-align: center;
                 z-index: 2;
+                @media (max-width:$breakpoint-tablet) {
+                    font-size: 5vw;
+                }
+                
                 @media (min-width:$breakpoint-tablet-horizontal) {
                     font-size: 2rem;
                     line-height: 1.2;

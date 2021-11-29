@@ -81,7 +81,12 @@
         }
         .budding {
             img {
-                width: 20vw;
+                width: 30vw;
+            }
+            @media (min-width:$breakpoint-tablet-horizontal) {
+                img {
+                    width: 20vw;
+                }
             }
             h3{
                 color:#007A3E;
@@ -92,11 +97,12 @@
             .buddingWrapper {
                 background: white;
                 padding:2rem;
-                border-radius: 150px;
+                border-radius: 200px;
                 box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
-                min-height: 80vh;
+                min-height: 90vh;
                 @media (min-width:$breakpoint-tablet-horizontal) {
                     min-height: auto;
+                    border-radius: 150px;
                 }
             }
             @media (min-width:$breakpoint-tablet-horizontal) {
