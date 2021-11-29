@@ -151,7 +151,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: $breakpoint-tablet) {
     .wrapperFooter {
         padding-left: 2vw;
         padding-right: 2vw;
@@ -173,6 +173,8 @@
     .footerWrapperName {
         width: 100%;
         margin-left: -7vw;
+        display: flex;
+        justify-content: center;
         @media (min-width:$breakpoint-tablet-horizontal) {
             margin-left: 0;
         }
@@ -290,3 +292,12 @@
     }
 }
 
+@media screen and (min-width:$breakpoint-tablet) and (max-width: 1023px) {
+    .wrapperSectionContactNetwork,
+    .footerNewslater {
+        text-align: center;
+    }
+    .anchorWrapper{
+        align-items: center;
+    }
+}

@@ -23,7 +23,7 @@
 		</div>
 
 	</div>
-	<div class="bigWrapperFlex">
+	<div class="bigWrapperFlex tablet">
 		<div class="wrapperSectionContactNetwork">
 			<div class="wrapperContact">
 				<p class="titleContactSection">CONTACT US</p>
