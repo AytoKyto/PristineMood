@@ -19,7 +19,7 @@
 		</div>
 		<div class="FooterNewsletterWrapper">
 			<p class="titleNewslater">SUBSCRIBE TO PRISTINE MOOD COMMUNICATIONS</p>
-			<?php echo do_shortcode('[mc4wp_form id="14"]'); ?>
+			<?php echo do_shortcode( '[mc4wp_form id="14"]' ); ?>
 		</div>
 
 	</div>
@@ -75,8 +75,8 @@
 					<ul>
 						<li><strong>MENU</strong></li>
 						<li><a class="anchor" href="pristime-mood">PRISITINE MOOD</a></li>
-						<li><a class="anchor" href="goal">OUR GOALS</a></li>
-						<li><a class="anchor" href="collectively">COLLECTIVELY</a></li>
+						<li><a class="anchor" href="goal">GOALS</a></li>
+						<li><a class="anchor" href="collectively">APPROACH</a></li>
 						<li><a class="anchor" href="canopy">SUSTAINABILITY CANOPY</a></li>
 					</ul>
 				</div>
