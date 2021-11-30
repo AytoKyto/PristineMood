@@ -2666,11 +2666,15 @@ body {
 	}
 }
 
-.page-id-3 {
+.page-id-3,
+.page-id-30,
+.page-id-32 {
 	background: #E0DAD6;
 }
 
-.page-id-3 main {
+.page-id-3 main,
+.page-id-30 main,
+.page-id-32 main {
 	margin: 0 auto;
 	width: 90vw;
 }
