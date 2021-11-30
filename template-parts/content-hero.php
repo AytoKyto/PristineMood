@@ -29,9 +29,9 @@
 	</div>
 	<div class="heroContent">
 		<div class="heroContent-logo"><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logohero.svg"/></div>
-		<h1>Seeding, budding, blooming !</h1>
+		<h1><span>Seeding,</span> <span>budding,</span> <span>blooming !</span></h1>
 		<div class="heroContent-scroll">
-			<a class="anchor" href="subhero">		Scroll
+			<a class="anchor" href="subhero"><span>Scroll</span>
 		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/arrow-down.svg"/></a>
 		</div>
 	</div>

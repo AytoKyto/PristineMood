@@ -169,6 +169,17 @@
                 bottom: 10vh;
                 color:white;
                 text-decoration: none;
+                span,img{
+                    transition: all ease-in-out 0.3s;
+                }
+                &:hover{
+                    span{
+                        transform: translateY(-0.2vw);
+                    }
+                    img {
+                        transform: translateY(0.2vw);
+                    }
+                }
             }
         }
 
