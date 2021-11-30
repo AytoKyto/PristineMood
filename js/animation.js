@@ -339,7 +339,6 @@ jQuery(document).ready(function ($) {
            trigger: '.contactWrapper',
            start: "10% bottom",
            end: "bottom top",
-           markers: true
        });
 
     });
