@@ -97,9 +97,9 @@
 			* CSR : Corporate Social Responsibility
 		</div>
 		<div class="wrapperPolitique">
-			<a href="" class="/legal-mentions">Legal mentions</a>
-			<a href="" class="/privacy-policy">Privacy Policy</a>
-			<a href="" class="/terms-conditions">Terms & Conditions</a>
+			<a href="/legal-mentions" class="politique">Legal mentions</a>
+			<a href="/privacy-policy" class="politique">Privacy Policy</a>
+			<a href="/terms-conditions" class="politique">Terms & Conditions</a>
 		</div>
 	</div>
 	<!-- .site-info -->
