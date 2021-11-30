@@ -29,7 +29,7 @@
 				<p class="titleContactSection">CONTACT US</p>
 				<p class="contactMail"><a href="mailto:explorer@pristinemood.com">explorer@pristinemood.com<a></p>
 			</div>
-			<div class="wrapperNetwork">
+			<!-- <div class="wrapperNetwork">
 				<div class="wrapperNetworkIcon">
 					<a href="#" class="networkIcon"><svg xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 98 98">
 							<g id="Groupe_1931" data-name="Groupe 1931" transform="translate(-1666 -19)">
@@ -66,7 +66,7 @@
 						</svg>
 					</a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 		<div class="footerNewslater">
 			
