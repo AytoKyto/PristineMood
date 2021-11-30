@@ -296,7 +296,6 @@ jQuery(document).ready(function ($) {
            trigger: '.canopyContainer',
            start: "30% bottom",
            end: "bottom top",
-           markers : true
        });
 
     //    Contact
