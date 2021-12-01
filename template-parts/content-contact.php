@@ -5,7 +5,7 @@
 			<p class="contactTitle">Contact us</p>
 			<p class="contactContent">
 				This is an exclusive launch for Serandipian Members and Partners first.<br/>
-				<a href="#" title="">Click here</a> to find out more about Serandipians. <br/>
+				<a href="http://serandipians.com" target="_blank" title="">Click here</a> to find out more about Serandipians. <br/>
 				If you are a Serandipian member or partner, please check your mailbox.
 			</p>
 		</div>

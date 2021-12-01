@@ -21,20 +21,20 @@
 					<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/seeding.svg"/>
 				<h3>Seeding</h3>
 				<p>You are highly engaged and understand the urgency of sustainability as a priority for the next two years.<br/>
-					You might not have started the path to become more responsible social and ecologically but you commit to implement a min of 50% of the actions from our grid.
+					You might not have started the path to become more responsible socially and ecologically, but you commit to implementing a minimum of 50% of the actions from our grid.
 				</p>
 			</div>
 			<div class="budding">
 				<div class="buddingWrapper">
 					<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/budding.svg"/>
 					<h3>Budding</h3>
-					<p>You have already started your journey in the sustainability sphere. You declare having implemented actions from our grid and you are looking to go further and building your sustainability strategy beyond.</p>
+					<p>You have already started your sustainability journey. You declare having implemented actions from our grid, and you are looking to further broaden your sustainability strategy.</p>
 				</div>
 			</div>
 			<div class="blooming">
 					<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/blooming.svg"/>
 				<h3>Blooming</h3>
-				<p>You are a confirmed Pristine bee. You have proving to have implemented the essential actions from the grid. You are now demonstrating the beauty of your engagements towards a more sustainable world.</p>
+				<p>You are a confirmed Pristine bee. You proved to have implemented the essential actions from the grid. You are now consolidating your engagement towards a more sustainable world.</p>
 			</div>
 		</div>
 	</div>
