@@ -13,7 +13,7 @@
 				<div class="text">
 					<h3>Education</h3>
 					<p>
-						The primary objective of our qualification programme is to enlighten a maximum number of travel designers, luxury travel suppliers (such as hotels, camps, boats, DMCs…) and travellers about CSR practices.Today, too many professional stakeholders and travellers have a very limited level of awareness about such practices.
+						The primary objective of our qualification programme is to enlighten a maximum number of travel designers, luxury travel suppliers (such as hotels, camps, boats, DMCs…) and travellers about CSR* practices.Today, too many professional stakeholders and travellers have a very limited level of awareness about such practices.
 					</p>
 				</div>
 			</div>
@@ -24,7 +24,7 @@
 			</div>
 			<div class="text">
 					<h3>Collaborative<br/>progress</h3>
-					<p>The second most important objective is to learn from the best actors in our luxury travel industry and from other industries, to rapidly improve knowledge and practices amongst stakeholders and travellers; to turn the stakeholders of our industry into leading CSR brands.</p>
+					<p>The second most important objective is to learn from the best actors in our luxury travel industry and from other industries, to rapidly improve knowledge and practices amongst stakeholders and travellers; to turn the stakeholders of our industry into leading CSR* brands.</p>
 			</div>
 		</div>
 	</div>

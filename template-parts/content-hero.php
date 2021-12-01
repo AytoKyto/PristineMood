@@ -43,7 +43,7 @@
 			<h2>Pristine <span>Mood</span></h2>
 			<p>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/quotes.svg" alt="quotes">
-				Our ambition is to ramp-up awareness about urgent CSR <br/>action implementation and to collectively turn our luxury <br/>travel industry into a leading responsibility and sustainability <br/>example for the broader international travel industry, which <br/>represents 10% of the world’s GDP.
+				Our ambition is to ramp-up awareness about urgent CSR* <br/>action implementation and to collectively turn our luxury <br/>travel industry into a leading responsibility and sustainability <br/>example for the broader international travel industry, which <br/>represents 10% of the world’s GDP.
 			</p>
 		</div>
 	</div>
