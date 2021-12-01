@@ -1739,7 +1739,7 @@ body {
 }
 
 .collectivelyWrapper .collectivelyFooter svg {
-	max-width: 100%;
+	min-width: 100%;
 	height: auto;
 }
 
@@ -1934,6 +1934,7 @@ body {
 
 .canopyWrapper .canopyFooter img {
 	margin-bottom: -20px;
+	min-width: 100%;
 }
 
 @media (min-width: 1024px) {
