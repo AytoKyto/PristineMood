@@ -90,9 +90,9 @@
 		<div class="wrapperCopyright">
 			<p class="copyright">© 2022, Pristine Mood by TRAVELER MADE </p>
 		</div>
-		<div class="wrapperCopyright">
+		<!-- <div class="wrapperCopyright">
 			<p class="copyright">Création : agence LA NAGEUSE </p>
-		</div>
+		</div> -->
 		<div class="wrapperLegend">
 			* CSR : Corporate Social Responsibility
 		</div>
