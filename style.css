@@ -1153,12 +1153,12 @@ body {
 
 .heroWrapper .heroContent-logo img {
 	max-width: 70%;
-	margin-right: 6vw;
+	margin: 3vw;
 }
 
 @media (min-width: 1024px) {
 	.heroWrapper .heroContent-logo img {
-		margin-right: 3vw;
+		margin: 2vw;
 	}
 }
 
