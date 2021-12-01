@@ -254,7 +254,7 @@ jQuery(document).ready(function ($) {
          canopy.from('.canopyWrapper .panthere', 0.5, {
              autoAlpha: 0,
              x: -20
-         }, 0.5)
+         }, 3.5)
         
         ScrollTrigger.create({
             animation: canopy,
