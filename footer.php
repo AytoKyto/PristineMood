@@ -88,7 +88,7 @@
 	</div>
 	<div class="wrapperLastLine">
 		<div class="wrapperCopyright">
-			<p class="copyright">© 2022, Pristine Mood by TRAVELLER MADE </p>
+			<p class="copyright">© 2021, Pristine Mood by TRAVELLER MADE </p>
 		</div>
 		<div class="wrapperCopyright" style="display:none;">
 			<p class="copyright">Création : agence LA NAGEUSE </p>
