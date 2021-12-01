@@ -27,7 +27,7 @@
 		<div class="wrapperSectionContactNetwork">
 			<div class="wrapperContact">
 				<p class="titleContactSection">CONTACT US</p>
-				<p class="contactMail"><a href="mailto:explorer@pristinemood.com">explorer@pristinemood.com<a></p>
+				<p class="contactMail"><a href="mailto:explore@pristinemood.com">explore@pristinemood.com<a></p>
 			</div>
 			<!-- <div class="wrapperNetwork">
 				<div class="wrapperNetworkIcon">
