@@ -3,9 +3,7 @@
     background: linear-gradient(185deg, #2f400f 50%, rgba(58, 80, 19, 0.69) 100%);
     margin-top:-10px;
     padding-top:10vh;
-    @media (min-width:$breakpoint-tablet-horizontal) {
-        padding-top:25vh;
-    }
+
     .canopyTitle{
         text-align: center;
         color:white;

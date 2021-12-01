@@ -1756,12 +1756,6 @@ body {
 	padding-top: 10vh;
 }
 
-@media (min-width: 1024px) {
-	.canopyWrapper {
-		padding-top: 25vh;
-	}
-}
-
 .canopyWrapper .canopyTitle {
 	text-align: center;
 	color: white;
