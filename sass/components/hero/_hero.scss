@@ -261,6 +261,9 @@
 
 .footerHeroWrapper{
     background: #5B6D54;
+    img{
+        min-width: 100%;
+    }
 }
 
 [class^="cursor"] {

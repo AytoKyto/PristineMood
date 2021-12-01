@@ -1283,6 +1283,10 @@ body {
 	background: #5B6D54;
 }
 
+.footerHeroWrapper img {
+	min-width: 100%;
+}
+
 [class^="cursor"] {
 	position: fixed;
 	top: 0;
