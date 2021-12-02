@@ -19,7 +19,7 @@
 		</div>
 		<div class="FooterNewsletterWrapper">
 			<p class="titleNewslater">SUBSCRIBE TO PRISTINE MOOD COMMUNICATIONS</p>
-			<?php echo do_shortcode( '[mc4wp_form id="14"]' ); ?>
+			<?php echo do_shortcode( '[contact-form-7 id="6" title="Newsletter"]' ); ?>
 		</div>
 
 	</div>
@@ -74,7 +74,7 @@
 				<div class="menuAnchor">
 					<ul>
 						<li><strong>MENU</strong></li>
-						<li><a class="anchor" href="pristime-mood">PRISITINE MOOD</a></li>
+						<li><a class="anchor" href="pristime-mood">PRISTINE MOOD</a></li>
 						<li><a class="anchor" href="goal">GOALS</a></li>
 						<li><a class="anchor" href="collectively">APPROACH</a></li>
 						<li><a class="anchor" href="canopy">SUSTAINABILITY CANOPY</a></li>
@@ -88,7 +88,7 @@
 	</div>
 	<div class="wrapperLastLine">
 		<div class="wrapperCopyright">
-			<p class="copyright">© 2021, Pristine Mood by TRAVELLER MADE </p>
+			<p class="copyright">© 2021, Pristine Mood by Traveller Made </p>
 		</div>
 		<div class="wrapperCopyright" style="display:none;">
 			<p class="copyright">Création : agence LA NAGEUSE </p>
@@ -97,7 +97,7 @@
 			* CSR : Corporate Social Responsibility
 		</div>
 		<div class="wrapperPolitique">
-			<a href="/legal-mentions" class="politique">Legal mentions</a>
+			<a href="/legal-mentions" class="politique">Legal notices</a>
 			<a href="/privacy-policy" class="politique">Privacy Policy</a>
 			<a href="/terms-conditions" class="politique">Terms & Conditions</a>
 		</div>

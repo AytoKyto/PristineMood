@@ -154,34 +154,64 @@
                 }
             }
         }
+        &-title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a{
+                color: white;
+                text-decoration: none;
+                font-weight: 200;
+                span,
+                img {
+                    transition: all ease-in-out 0.3s;
+                }
+                &:hover {
+                    span {
+                        transform: translateY(-0.2vw);
+                    }
 
-        &-scroll {
+                    img {
+                        transform: translateY(0.5vw);
+                    }
+                }
+            }
+            &-scroll {
                 margin-left: -6vw;
+
                 @media (min-width:$breakpoint-tablet-horizontal) {
                     margin-left: -4vw;
                 }
-            a{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                font-weight: 100;
-                position: absolute;
-                bottom: 10vh;
-                color:white;
-                text-decoration: none;
-                span,img{
-                    transition: all ease-in-out 0.3s;
-                }
-                &:hover{
-                    span{
-                        transform: translateY(-0.2vw);
-                    }
+
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-weight: 100;
+                    position: absolute;
+                    bottom: 10vh;
+                    color: white;
+                    text-decoration: none;
+
+                    span,
                     img {
-                        transform: translateY(0.2vw);
+                        transition: all ease-in-out 0.3s;
+                    }
+
+                    &:hover {
+                        span {
+                            transform: translateY(-0.2vw);
+                        }
+
+                        img {
+                            transform: translateY(0.2vw);
+                        }
                     }
                 }
             }
         }
+
+        
 
         h1 {
             position: relative;

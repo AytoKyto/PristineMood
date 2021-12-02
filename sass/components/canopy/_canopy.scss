@@ -40,7 +40,7 @@
         flex-direction: column;
         color:white;
         position: relative;
-        z-index: 12;
+        z-index: 15;
         @media (max-width:$breakpoint-tablet) {
             z-index: 14;
         }
@@ -223,7 +223,7 @@
         position: absolute;
         bottom:-25vh;
         left:-12vw;
-        z-index: 13;
+        z-index: 1;
         img {
             width: 85vw;
         }

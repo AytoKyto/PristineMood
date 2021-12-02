@@ -12,7 +12,7 @@
 			</div>
 			<div class="col-2">
 				<svg class="blob-title" xmlns="http://www.w3.org/2000/svg" width="42.981" height="42.981" viewBox="0 0 42.981 42.981"><path d="M13.573.473C7.779,2.026,3.152,6.846,1.128,12.673l-.011.043a19.839,19.839,0,0,0-1.082,4.7A8.253,8.253,0,0,0,.549,21.2a10.817,10.817,0,0,0,.568,2.624c2.5,6.351,9.725,9.2,16.3,7.048C25.13,28.321,30.2,19.71,29.04,11.591,27.9,3.59,21.446-1.647,13.573.473" transform="translate(0 20.65) rotate(-45)" fill="#60831F"/></svg>
-				<h3>Regularlyself-assessed</h3>
+				<h3>Regularly self-assessed</h3>
 				<p>The Pristine Mood qualification grid will be reviewed every year based on updated scientific knowledge and on the best practices of our luxury travel community.</p>
 			</div>
 			<div class="col-3">

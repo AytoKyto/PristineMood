@@ -49,6 +49,8 @@
         
         margin: 0 auto;
         margin-top: 4vw;
+        display: flex;
+        flex-direction: column;
         .inputWrap {
             >label{
                 display: block;
@@ -75,14 +77,70 @@
             .other{
                 display: none;
             }
+            &.inputWrap-company-name{
+                order:4;
+            }
+            &.inputWrap-name{
+                order:1;
+            }
+            &.inputWrap-company-type{
+                order:5;
+            }
+            &.inputWrap-position{
+                order:2;
+            }
+            &.inputWrap-address{
+                order:6;
+            }
+            &.inputWrap-phone-number{
+                order:9;
+            }
+            &.inputWrap-town{
+                order:7;
+            }
+            &.inputWrap-email{
+                order:3;
+            }
+            &.inputWrap-country{
+                order:8;
+            }
+            &.inputWrap-website{
+                order:10;
+            }
+            &.inputWrap-message{
+                order:11;
+            }
+            &.inputWrap-acceptance{
+                order:12;
+            }
+            &.submitWrapper{
+                order:13;
+            }
         }
         @media (min-width:$breakpoint-tablet-horizontal) {
             width: 65vw;
             display: flex;
             flex-wrap: wrap;
+            flex-direction: row;
+            
             .inputWrap{
                 flex:50%;
                 padding: 0 0.7rem;
+                &.inputWrap-company-name,
+                &.inputWrap-name,
+                &.inputWrap-company-type,
+                &.inputWrap-position,
+                &.inputWrap-address,
+                &.inputWrap-phone-number,
+                &.inputWrap-town,
+                &.inputWrap-email,
+                &.inputWrap-country,
+                &.inputWrap-website,
+                &.inputWrap-message,
+                &.inputWrap-acceptance,
+                &.submitWrapper{
+                order:initial;
+                }
             }
             .wpcf7-response-output{
                 flex:100%;
@@ -142,8 +200,6 @@
         flex-wrap: wrap;
         margin: 0;
         width: 65vw;
-        
-
     }
     .poppin {
         position: absolute;

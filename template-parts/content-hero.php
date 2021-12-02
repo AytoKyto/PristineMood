@@ -29,10 +29,12 @@
 	</div>
 	<div class="heroContent">
 		<div class="heroContent-logo"><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logohero.svg"/></div>
-		<h1><span>Seeding,</span> <span>budding,</span> <span>blooming.</span></h1>
-		<div class="heroContent-scroll">
-			<a class="anchor" href="subhero"><span>Scroll</span>
-		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/arrow-down.svg"/></a>
+		<div class="heroContent-title">
+			<h1><span>Seeding,</span> <span>budding,</span> <span>blooming.</span></h1>
+			<div class="heroContent-scroll">
+				<div><a class="anchor" href="subhero"><span>Scroll</span></div>
+			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/arrow-down.svg"/></a>
+			</div>
 		</div>
 	</div>
 	<div class="subHeroWrapper" id="subhero">
@@ -40,7 +42,7 @@
 			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-hero-5.svg"/>
 		</div>
 		<div class="subHeroContent">
-			<h2>Pristine <span>Mood</span></h2>
+			<h2><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/pristine-mood-title.svg"/></h2>
 			<p>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/quotes.svg" alt="quotes">
 				Our ambition is to ramp-up awareness about urgent CSR* <br/>action implementation and to collectively turn our luxury <br/>travel industry into a leading responsibility and sustainability <br/>example for the broader international travel industry, which <br/>represents 10% of the world’s GDP.

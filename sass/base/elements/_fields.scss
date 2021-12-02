@@ -155,13 +155,12 @@ select {
 // }
 
 /* custom checkbox styling for contact form 7 checkbox */
-.mc4wp-checkbox-contact-form-7 label {
+.wpcf7-form-control-wrap.my-optin label {
 	position: relative;
 	cursor: pointer;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox] {
-	/*position: relative;*/
+.wpcf7-form-control-wrap.my-optin input[type=checkbox] {
 	position: absolute;
 	opacity:0;
 	z-index: 10;
@@ -171,11 +170,11 @@ select {
 	left: 0;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox]:hover {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox]:hover {
 	cursor: pointer;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox]+span {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox]+span {
 	color:#60831F;
 	display: flex;
 	align-content: center;
@@ -184,7 +183,7 @@ select {
 	margin-left: 40px;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox]+span:before {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox]+span:before {
 	display: block;
 	position: absolute;
 	content: '';
@@ -196,7 +195,7 @@ select {
 	border: 1px solid #60831F;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox]+span:after {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox]+span:after {
 	display: block;
 	position: absolute;
 	content: "\2713";
@@ -213,11 +212,11 @@ select {
 	line-height: 25px;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox]:checked+span:before {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox]:checked+span:before {
 	background: transparent;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox]:checked+span:after {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox]:checked+span:after {
 	visibility: visible;
 }
 

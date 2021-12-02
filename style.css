@@ -673,13 +673,12 @@ select::-ms-expand {
 }
 
 /* custom checkbox styling for contact form 7 checkbox */
-.mc4wp-checkbox-contact-form-7 label {
+.wpcf7-form-control-wrap.my-optin label {
 	position: relative;
 	cursor: pointer;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox] {
-	/*position: relative;*/
+.wpcf7-form-control-wrap.my-optin input[type=checkbox] {
 	position: absolute;
 	opacity: 0;
 	z-index: 10;
@@ -689,11 +688,11 @@ select::-ms-expand {
 	left: 0;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox]:hover {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox]:hover {
 	cursor: pointer;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox] + span {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox] + span {
 	color: #60831F;
 	display: flex;
 	align-content: center;
@@ -702,7 +701,7 @@ select::-ms-expand {
 	margin-left: 40px;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox] + span:before {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox] + span:before {
 	display: block;
 	position: absolute;
 	content: '';
@@ -714,7 +713,7 @@ select::-ms-expand {
 	border: 1px solid #60831F;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox] + span:after {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox] + span:after {
 	display: block;
 	position: absolute;
 	content: "\2713";
@@ -731,11 +730,11 @@ select::-ms-expand {
 	line-height: 25px;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox]:checked + span:before {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox]:checked + span:before {
 	background: transparent;
 }
 
-.mc4wp-checkbox-contact-form-7 input[type=checkbox]:checked + span:after {
+.wpcf7-form-control-wrap.my-optin input[type=checkbox]:checked + span:after {
 	visibility: visible;
 }
 
@@ -1168,17 +1167,42 @@ body {
 	}
 }
 
-.heroWrapper .heroContent-scroll {
+.heroWrapper .heroContent-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.heroWrapper .heroContent-title a {
+	color: white;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+.heroWrapper .heroContent-title a span,
+.heroWrapper .heroContent-title a img {
+	transition: all ease-in-out 0.3s;
+}
+
+.heroWrapper .heroContent-title a:hover span {
+	transform: translateY(-0.2vw);
+}
+
+.heroWrapper .heroContent-title a:hover img {
+	transform: translateY(0.5vw);
+}
+
+.heroWrapper .heroContent-title-scroll {
 	margin-left: -6vw;
 }
 
 @media (min-width: 1024px) {
-	.heroWrapper .heroContent-scroll {
+	.heroWrapper .heroContent-title-scroll {
 		margin-left: -4vw;
 	}
 }
 
-.heroWrapper .heroContent-scroll a {
+.heroWrapper .heroContent-title-scroll a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1189,15 +1213,16 @@ body {
 	text-decoration: none;
 }
 
-.heroWrapper .heroContent-scroll a span, .heroWrapper .heroContent-scroll a img {
+.heroWrapper .heroContent-title-scroll a span,
+.heroWrapper .heroContent-title-scroll a img {
 	transition: all ease-in-out 0.3s;
 }
 
-.heroWrapper .heroContent-scroll a:hover span {
+.heroWrapper .heroContent-title-scroll a:hover span {
 	transform: translateY(-0.2vw);
 }
 
-.heroWrapper .heroContent-scroll a:hover img {
+.heroWrapper .heroContent-title-scroll a:hover img {
 	transform: translateY(0.2vw);
 }
 
@@ -1640,15 +1665,15 @@ body {
 }
 
 .collectivelyWrapper .collectivelyContainer .col-4 {
-	order: 4;
+	order: 6;
 }
 
 .collectivelyWrapper .collectivelyContainer .col-5 {
-	order: 5;
+	order: 4;
 }
 
 .collectivelyWrapper .collectivelyContainer .col-6 {
-	order: 6;
+	order: 5;
 }
 
 .collectivelyWrapper .collectivelyContainer .col-7 {
@@ -1820,7 +1845,7 @@ body {
 	flex-direction: column;
 	color: white;
 	position: relative;
-	z-index: 12;
+	z-index: 15;
 }
 
 @media (max-width: 768px) {
@@ -2050,7 +2075,7 @@ body {
 	position: absolute;
 	bottom: -25vh;
 	left: -12vw;
-	z-index: 13;
+	z-index: 1;
 }
 
 .canopyWrapper .branch-1 img {
@@ -2131,6 +2156,8 @@ body {
 .contactWrapper .contactForm {
 	margin: 0 auto;
 	margin-top: 4vw;
+	display: flex;
+	flex-direction: column;
 }
 
 .contactWrapper .wpcf7-form .inputWrap > label,
@@ -2183,17 +2210,99 @@ body {
 	display: none;
 }
 
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-company-name,
+.contactWrapper .contactForm .inputWrap.inputWrap-company-name {
+	order: 4;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-name,
+.contactWrapper .contactForm .inputWrap.inputWrap-name {
+	order: 1;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-company-type,
+.contactWrapper .contactForm .inputWrap.inputWrap-company-type {
+	order: 5;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-position,
+.contactWrapper .contactForm .inputWrap.inputWrap-position {
+	order: 2;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-address,
+.contactWrapper .contactForm .inputWrap.inputWrap-address {
+	order: 6;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-phone-number,
+.contactWrapper .contactForm .inputWrap.inputWrap-phone-number {
+	order: 9;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-town,
+.contactWrapper .contactForm .inputWrap.inputWrap-town {
+	order: 7;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-email,
+.contactWrapper .contactForm .inputWrap.inputWrap-email {
+	order: 3;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-country,
+.contactWrapper .contactForm .inputWrap.inputWrap-country {
+	order: 8;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-website,
+.contactWrapper .contactForm .inputWrap.inputWrap-website {
+	order: 10;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-message,
+.contactWrapper .contactForm .inputWrap.inputWrap-message {
+	order: 11;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.inputWrap-acceptance,
+.contactWrapper .contactForm .inputWrap.inputWrap-acceptance {
+	order: 12;
+}
+
+.contactWrapper .wpcf7-form .inputWrap.submitWrapper,
+.contactWrapper .contactForm .inputWrap.submitWrapper {
+	order: 13;
+}
+
 @media (min-width: 1024px) {
 	.contactWrapper .wpcf7-form,
 	.contactWrapper .contactForm {
 		width: 65vw;
 		display: flex;
 		flex-wrap: wrap;
+		flex-direction: row;
 	}
 	.contactWrapper .wpcf7-form .inputWrap,
 	.contactWrapper .contactForm .inputWrap {
 		flex: 50%;
 		padding: 0 0.7rem;
+	}
+	.contactWrapper .wpcf7-form .inputWrap.inputWrap-company-name, .contactWrapper .wpcf7-form .inputWrap.inputWrap-name, .contactWrapper .wpcf7-form .inputWrap.inputWrap-company-type, .contactWrapper .wpcf7-form .inputWrap.inputWrap-position, .contactWrapper .wpcf7-form .inputWrap.inputWrap-address, .contactWrapper .wpcf7-form .inputWrap.inputWrap-phone-number, .contactWrapper .wpcf7-form .inputWrap.inputWrap-town, .contactWrapper .wpcf7-form .inputWrap.inputWrap-email, .contactWrapper .wpcf7-form .inputWrap.inputWrap-country, .contactWrapper .wpcf7-form .inputWrap.inputWrap-website, .contactWrapper .wpcf7-form .inputWrap.inputWrap-message, .contactWrapper .wpcf7-form .inputWrap.inputWrap-acceptance, .contactWrapper .wpcf7-form .inputWrap.submitWrapper,
+	.contactWrapper .contactForm .inputWrap.inputWrap-company-name,
+	.contactWrapper .contactForm .inputWrap.inputWrap-name,
+	.contactWrapper .contactForm .inputWrap.inputWrap-company-type,
+	.contactWrapper .contactForm .inputWrap.inputWrap-position,
+	.contactWrapper .contactForm .inputWrap.inputWrap-address,
+	.contactWrapper .contactForm .inputWrap.inputWrap-phone-number,
+	.contactWrapper .contactForm .inputWrap.inputWrap-town,
+	.contactWrapper .contactForm .inputWrap.inputWrap-email,
+	.contactWrapper .contactForm .inputWrap.inputWrap-country,
+	.contactWrapper .contactForm .inputWrap.inputWrap-website,
+	.contactWrapper .contactForm .inputWrap.inputWrap-message,
+	.contactWrapper .contactForm .inputWrap.inputWrap-acceptance,
+	.contactWrapper .contactForm .inputWrap.submitWrapper {
+		order: initial;
 	}
 	.contactWrapper .wpcf7-form .wpcf7-response-output,
 	.contactWrapper .contactForm .wpcf7-response-output {
@@ -2601,7 +2710,7 @@ body {
 	margin-top: 2.5rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 	.anchorWrapper .logoTraveller {
 		display: flex;
 		align-self: center;
@@ -2613,6 +2722,7 @@ body {
 		margin-top: 0;
 		display: flex;
 		justify-content: flex-end;
+		padding-right: 0.5rem;
 	}
 }
 
