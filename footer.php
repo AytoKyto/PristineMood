@@ -19,7 +19,7 @@
 		</div>
 		<div class="FooterNewsletterWrapper">
 			<p class="titleNewslater">SUBSCRIBE TO PRISTINE MOOD COMMUNICATIONS</p>
-			<?php echo do_shortcode( '[contact-form-7 id="52" title="Sans titre"]' ); ?>
+			<?php echo do_shortcode( '[contact-form-7 id="52" title="Newsletter"]' ); ?>
 		</div>
 
 	</div>
