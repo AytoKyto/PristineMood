@@ -126,6 +126,9 @@
                     line-height: 1;
                     color: #60831F;
                     font-weight: 600;
+                    @media(max-width:$breakpoint-mobile-horizontal) {
+                        font-size: 2.5rem;
+                    }
                 }
                 p{
                     @media(min-width:$breakpoint-tablet-horizontal) {

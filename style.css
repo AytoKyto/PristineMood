@@ -1491,6 +1491,12 @@ body {
 	font-weight: 600;
 }
 
+@media (max-width: 480px) {
+	.goalWrapper .goalContainer .goalCollaborative .text h3 {
+		font-size: 2.5rem;
+	}
+}
+
 @media (min-width: 1024px) {
 	.goalWrapper .goalContainer .goalCollaborative .text p {
 		padding: 0 10.5vw;
