@@ -1741,10 +1741,16 @@ body {
 	.collectivelyWrapper .collectivelyFooter {
 		margin-top: -20vh;
 	}
+	.collectivelyWrapper .collectivelyFooter svg {
+		min-width: 100%;
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 .collectivelyWrapper .collectivelyFooter svg {
 	min-width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 

@@ -145,9 +145,15 @@
     .collectivelyFooter{
         @media (min-width:$breakpoint-tablet-horizontal) {
         margin-top: -20vh;
+        svg {
+            min-width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
         }
         svg{
             min-width: 100%;
+            max-width: 100%;
             height: auto;
         }
     }
