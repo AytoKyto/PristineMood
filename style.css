@@ -1893,6 +1893,12 @@ body {
 	min-height: 70vh;
 }
 
+@media (max-width: 480px) {
+	.canopyWrapper .canopyContent .budding .buddingWrapper {
+		min-height: 102vh;
+	}
+}
+
 @media (min-width: 1024px) {
 	.canopyWrapper .canopyContent .budding .buddingWrapper {
 		min-height: auto;

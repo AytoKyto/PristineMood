@@ -104,6 +104,9 @@
                 border-radius: 260px;
                 box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
                 min-height: 70vh;
+                @media (max-width:$breakpoint-mobile-horizontal) {
+                    min-height:102vh;
+                }
                 @media (min-width:$breakpoint-tablet-horizontal) {
                     min-height: auto;
                     border-radius: 150px;
