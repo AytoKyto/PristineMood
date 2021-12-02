@@ -2741,6 +2741,10 @@ body {
 	position: relative;
 }
 
+.FooterNewsletterWrapper .newsletterWrapper .wpcf7-response-output {
+	margin-top: 0;
+}
+
 .FooterNewsletterWrapper .newsletterWrapper input[type=email] {
 	background: transparent;
 	color: white;

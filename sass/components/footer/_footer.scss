@@ -240,6 +240,10 @@
     .newsletterWrapper {
         position: relative;
         
+
+        .wpcf7-response-output{
+            margin-top: 0;
+        }
         input[type=email] {
             background: transparent;
             color: white;
