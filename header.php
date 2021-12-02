@@ -12,10 +12,7 @@
 
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?> <?php 
-if ( is_home() ) :
-	?>
-	class="loading" <?php endif; ?>>
+<html <?php language_attributes(); ?> <?php if (is_home()) : ?>class="loading" <?php endif; ?>>
 
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -35,14 +32,6 @@ if ( is_home() ) :
 
 	gtag('config', 'G-TQ1CDEWHTW');
 	</script>
-	<?php
-	$pageURL = ( @$_SERVER['HTTPS'] == 'on' ) ? 'https://' : 'http://';
-	if ( $_SERVER['SERVER_PORT'] != '80' ) {
-		$pageURL .= $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . $_SERVER['REQUEST_URI'];
-	} else {
-		$pageURL .= $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-	}
-	?>
 </head>
 
 <body <?php body_class(); ?>>
