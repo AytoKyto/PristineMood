@@ -27,12 +27,12 @@
 
 <body <?php body_class(); ?>>
 <!-- loader -->
-	<!-- <div id="preloader">
+	<div id="preloader">
 		<div class="wrap">
 			<div id="counter-wrap"><span id="counter"></span></div>
 			<div id="line"></div>
 		</div>
-	</div> -->
+	</div>
 	<?php wp_body_open(); ?>
 	<div id="page" class="site">
 		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
