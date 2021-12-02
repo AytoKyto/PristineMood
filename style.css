@@ -2485,6 +2485,12 @@ body {
 	margin: 0 10px;
 }
 
+@media (max-width: 480px) {
+	.wrapperPolitique a {
+		margin: 0;
+	}
+}
+
 @media (min-width: 1024px) {
 	.wrapperPolitique a {
 		margin-right: 0;

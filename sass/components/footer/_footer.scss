@@ -135,6 +135,9 @@
         text-decoration: none;
         color: #fff;
         margin:0 10px;
+        @media (max-width:$breakpoint-mobile-horizontal) {
+            margin: 0;
+        }
         @media (min-width:$breakpoint-tablet-horizontal) {
         margin-right: 0;
         }
