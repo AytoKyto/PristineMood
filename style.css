@@ -744,6 +744,10 @@ select::-ms-expand {
 	display: inline-block;
 }
 
+.rgpd a {
+	color: black;
+}
+
 /* Container
 --------------------------------------------- */
 .container {
