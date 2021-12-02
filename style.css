@@ -2584,6 +2584,13 @@ body {
 	margin-top: 2.5rem;
 }
 
+@media (max-width: 480px) {
+	.anchorWrapper .logoTraveller {
+		display: flex;
+		align-self: center;
+	}
+}
+
 @media (min-width: 1024px) {
 	.anchorWrapper .logoTraveller {
 		margin-top: 0;
