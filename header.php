@@ -21,9 +21,7 @@
 	<link rel="stylesheet" href="https://use.typekit.net/eov5ijf.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400,500,600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
