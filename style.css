@@ -1366,7 +1366,7 @@ body {
 }
 
 .goalWrapper .goalContainer .goalEducation-title h2 .line {
-	width: 70%;
+	width: 100%;
 	height: 70px;
 	position: relative;
 	overflow: hidden;
