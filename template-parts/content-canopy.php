@@ -9,7 +9,7 @@
 		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-canopy.svg"/>
 	</div>
 	<div class="panthere">
-		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/panthere.svg"/>
+		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/panthere.png"/>
 	</div>
 	<div class="canopyContainer container">
 		<div class="canopyTitle">

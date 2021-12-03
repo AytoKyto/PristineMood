@@ -7,7 +7,7 @@
 			</div>
 			<div class="goalEducation-content">
 				<div class="image">
-					<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/education.svg"/>					
+					<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/education.png"/>					
 					<img class="svgLogo arrow" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/arrow-green.svg"/>
 				</div>
 				<div class="text">
@@ -20,7 +20,7 @@
 		</div>
 		<div class="goalCollaborative">
 			<div class="image">
-					<img class="svgLogo femme" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/collaborative.svg"/>					<img class="svgLogo arrow" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/arrow-green.svg"/>
+					<img class="svgLogo femme" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/collaborative.png"/>					<img class="svgLogo arrow" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/arrow-green.svg"/>
 			</div>
 			<div class="text">
 					<h3>Collaborative<br/>progress</h3>
