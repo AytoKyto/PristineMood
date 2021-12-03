@@ -12,7 +12,10 @@
 
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?> <?php if (is_home()) : ?>class="loading" <?php endif; ?>>
+<html <?php language_attributes(); ?> <?php 
+if ( is_home() ) :
+	?>
+	class="loading" <?php endif; ?>>
 
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -40,7 +43,6 @@
 	<div id="preloader">
 		<div class="wrap">
 			<div id="counter-wrap"><span id="counter"></span></div>
-			<div id="line"></div>
 		</div>
 	</div>
 	<?php endif; ?>

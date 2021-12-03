@@ -1,23 +1,76 @@
 jQuery(document).ready(function ($) {
+    var percentage_number = document.getElementById("counter");
+    var img_queue = new createjs.LoadQueue();
     var preloadTl = new TimelineMax();
-    var introTl = gsap.timeline({
-        paused: true
-    });
+    var introTl = gsap.timeline({paused: true});
 
-    preloadTl
-        .set('#line', {
-            width: 0
-        })
-        .to('#line', 4, {
-            width: '100%',
-            onUpdateParams: ["{self}"],
-            onUpdate: function (tl) {
-                // tl references {self} which is the timeline
-                var tlp = this.progress() * 100 >> 0;
-                $("#counter").html(tlp + "%");
-            }
-        });
-    // Animation des branches
+    img_queue.addEventListener("progress", event => {
+        var preloadTl = new TimelineMax();
+        var progress_percentage = Math.floor(event.progress * 100);
+        percentage_number.innerHTML = progress_percentage + "%";
+        console.log("progress " + Math.floor(event.progress * 100));
+            preloadTl
+                .to('#counter', 4, {
+                    onUpdateParams: ["{self}"],
+                    onUpdate: function (tl) {
+                        // tl references {self} which is the timeline
+                        var tlp = progress_percentage;
+                        $("#counter").html(tlp + "%");
+                    }
+                });
+            // Animation des branches
+    });
+    img_queue.addEventListener("complete", event => {
+        console.log("complete " + event.progress);
+        $('html').removeClass("loading");
+        // Finish the preload timeline if you'd like
+        preloadTl.onRepeat = function (tl) {
+            preloadTl.kill();
+            // or another animation or something
+        }
+        introTl.play();
+    });
+    var templateUrl = object_name.templateUrl;
+    console.log(templateUrl + "/assets/branch-hero-4.svg");
+    img_queue.loadFile(templateUrl + "/assets/branch-hero-4.svg");
+    img_queue.loadFile(templateUrl + "/assets/grenade.svg");
+    img_queue.loadFile(templateUrl + "/assets/logohero.svg");
+    img_queue.loadFile(templateUrl + "/assets/arrow-down.svg");
+    img_queue.loadFile(templateUrl + "/assets/branch-hero-5.svg");
+    img_queue.loadFile(templateUrl + "/assets/pristine-mood-title.svg");
+    img_queue.loadFile(templateUrl + "/assets/quotes.svg");
+    img_queue.loadFile(templateUrl + "/assets/arrow-green.svg");
+    img_queue.loadFile(templateUrl + "/assets/branch-goal.svg");
+    img_queue.loadFile(templateUrl + "/assets/branch-goal-2.svg");
+    img_queue.loadFile(templateUrl + "/assets/poppy.svg");
+    img_queue.loadFile(templateUrl + "/assets/branch-canopy.svg");
+    img_queue.loadFile(templateUrl + "/assets/seeding.svg");
+    img_queue.loadFile(templateUrl + "/assets/budding.svg");
+    img_queue.loadFile(templateUrl + "/assets/blooming.svg");
+    img_queue.loadFile(templateUrl + "/assets/branch-canopy-1.svg");
+    img_queue.loadFile(templateUrl + "/assets/bg-contact.svg");
+    img_queue.loadFile(templateUrl + "/assets/poppin-contact.svg");
+    img_queue.loadFile(templateUrl + "/assets/branch-contact.svg");
+    img_queue.loadFile(templateUrl + "/assets/branch-contact-1.svg");
+    img_queue.loadFile(templateUrl + "/assets/logofooter.svg");
+    img_queue.loadFile(templateUrl + "/assets/logo-tm.svg");
+    img_queue.loadFile(templateUrl + "/assets/blob-orange.svg");
+    img_queue.loadFile(templateUrl + "/assets/blob-green.svg");
+    img_queue.loadFile(templateUrl + "/assets/spider.gif");
+    img_queue.loadFile(templateUrl + "/assets/bee.gif");
+    img_queue.loadFile(templateUrl + "/assets/bg-footer-hero.png");
+    img_queue.loadFile(templateUrl + "/assets/education.png");
+    img_queue.loadFile(templateUrl + "/assets/collaborative.png");
+    img_queue.loadFile(templateUrl + "/assets/fish.png");
+    img_queue.loadFile(templateUrl + "/assets/whale.png");
+    img_queue.loadFile(templateUrl + "/assets/panthere.png");
+    img_queue.loadFile(templateUrl + "/assets/bee-contact.png");
+    img_queue.loadFile(templateUrl + "/assets/bg_hero-1.png");
+
+
+    
+
+
     introTl.from('.heroWrapper', 1, {
         autoAlpha: 0,
     })
@@ -65,11 +118,6 @@ jQuery(document).ready(function ($) {
         autoAlpha:0,
         y : 20
     }, 0.7)
-    introTl.from('.heroContent-grenade', 0.5, {
-        autoAlpha: 0,
-            y: 20
-        }, 0.7);
-
     // aniamtion du titre
     introTl.staggerFrom('.heroContent h1 span', 1, {
         autoAlpha: 0,
@@ -79,17 +127,13 @@ jQuery(document).ready(function ($) {
     introTl.staggerFrom('.heroContent-scroll', 1, {
         autoAlpha: 0,
     }, 0.8);
-    
-    $(window).on("load", function (e) {
-        $('html').removeClass("loading");
-        // Finish the preload timeline if you'd like
-        preloadTl.onRepeat = function (tl) {
-            preloadTl.kill();
-            // or another animation or something
-        }
 
+    //
+    // ------------ window load ---------------------//
+    //
+
+    $(window).on("load", function (e) {
         // intro hero
-        introTl.play();
         // subhero
         let subHero = gsap.timeline();
         subHero.set('.heroWrapper-branch.branch-5 img', {
@@ -247,7 +291,7 @@ jQuery(document).ready(function ($) {
          canopy.from('.canopyWrapper .branch', 0.5, {
              autoAlpha: 0,
              rotation: 20,
-             percentX: -40,
+             x: -40,
              scale: 0,
             transformOrigin: "right center",
          }, 1.5)
@@ -289,7 +333,7 @@ jQuery(document).ready(function ($) {
         canopyContainer.from('.canopyWrapper .branch-1', 0.5, {
             autoAlpha: 0,
             rotation: 20,
-            percentX: -40,
+            x: -40,
             scale: 0,
             transformOrigin: "left center",
         },4)
@@ -324,14 +368,14 @@ jQuery(document).ready(function ($) {
        contact.from('.contactWrapper .branch', 0.5, {
            autoAlpha: 0,
            rotation: 20,
-           percentX: -40,
+           x: -40,
            scale: 0,
            transformOrigin: "left center",
        }, 3)
        contact.from('.contactWrapper .branch-1', 0.5, {
            autoAlpha: 0,
            rotation: 20,
-           percentX: -40,
+           x: -40,
            scale: 0,
            transformOrigin: "right center",
        }, 3.3)

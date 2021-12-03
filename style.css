@@ -893,6 +893,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	flex-direction: column;
 	position: fixed;
 	top: -110%;
 	transition: top .8s ease-in-out;
