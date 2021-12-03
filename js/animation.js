@@ -182,7 +182,7 @@ jQuery(document).ready(function ($) {
                 alignOrigin: [0.5, 0.5]
                 // autoRotate: true
             },
-            duration: 15,
+            duration: 25,
             repeat:-1,
             ease: "power1.inOut"
         },-1.5);
