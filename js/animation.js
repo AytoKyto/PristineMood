@@ -204,7 +204,7 @@ jQuery(document).ready(function ($) {
             animation: goals,
             scrub: false,
             trigger: '.goalWrapper',
-            start: "20% bottom",
+            start: "top bottom",
             end: "bottom top",
         });
 
@@ -260,7 +260,7 @@ jQuery(document).ready(function ($) {
             animation: canopy,
             scrub: false,
             trigger: '.canopyWrapper',
-            start: "30% bottom",
+            start: "top bottom",
             end: "bottom top",
         });
 
@@ -336,7 +336,7 @@ jQuery(document).ready(function ($) {
            animation: contact,
            scrub: false,
            trigger: '.contactWrapper',
-           start: "10% bottom",
+           start: "top bottom",
            end: "bottom top",
        });
 
