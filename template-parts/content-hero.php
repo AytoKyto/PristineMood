@@ -42,6 +42,7 @@
 			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-hero-5.svg"/>
 		</div>
 		<div class="subHeroContent">
+			<div class="grenade"><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/grenade.svg"/></div>
 			<h2><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/pristine-mood-title.svg"/></h2>
 			<p>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/quotes.svg" alt="quotes">

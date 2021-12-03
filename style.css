@@ -1273,6 +1273,14 @@ body {
 	color: white;
 }
 
+.heroWrapper .subHeroWrapper .subHeroContent .grenade {
+	text-align: center;
+}
+
+.heroWrapper .subHeroWrapper .subHeroContent .grenade img {
+	margin: 0 auto;
+}
+
 .heroWrapper .subHeroWrapper .subHeroContent h2 {
 	font-family: "retiro-std-24pt";
 	text-align: center;
