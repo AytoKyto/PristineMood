@@ -10,6 +10,10 @@ document.getElementById('compagny-type').addEventListener('change', function () 
 });
 
 jQuery(document).ready(function ($) {
+    function getAnchor() {
+        return (document.URL.split('#').length > 1) ? document.URL.split('#')[1] : null;
+    }
+
     $('a.anchor').on('click', function (e) {
         e.preventDefault();
         const value = this.getAttribute('href');
@@ -18,4 +22,11 @@ jQuery(document).ready(function ($) {
             scrollTop: $(last).offset().top
         }, 800);
     });
+    if (window.location.hash) {
+       let value = getAnchor();
+       console.log(value);
+       $('html, body').delay(1000).animate({
+           scrollTop: $('#'+value).offset().top
+       }, 800);
+    }
 });
