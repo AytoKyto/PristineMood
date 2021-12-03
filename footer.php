@@ -76,10 +76,10 @@
 				<div class="menuAnchor">
 					<ul>
 						<li><strong>MENU</strong></li>
-						<li><a class="anchor" href="<?php echo get_site_url(); ?>/pristime-mood">PRISTINE MOOD</a></li>
-						<li><a class="anchor" href="<?php echo get_site_url(); ?>/goal">GOALS</a></li>
-						<li><a class="anchor" href="<?php echo get_site_url(); ?>/collectively">APPROACH</a></li>
-						<li><a class="anchor" href="<?php echo get_site_url(); ?>/canopy">SUSTAINABILITY CANOPY</a></li>
+						<li><a class="anchor" href="<?php echo get_site_url(); ?>/#pristime-mood">PRISTINE MOOD</a></li>
+						<li><a class="anchor" href="<?php echo get_site_url(); ?>/#goal">GOALS</a></li>
+						<li><a class="anchor" href="<?php echo get_site_url(); ?>/#collectively">APPROACH</a></li>
+						<li><a class="anchor" href="<?php echo get_site_url(); ?>/#canopy">SUSTAINABILITY CANOPY</a></li>
 					</ul>
 				</div>
 				<div class="logoTraveller">

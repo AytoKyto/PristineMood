@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
         const value = this.getAttribute('href');
         last = value.substring(value.lastIndexOf("/") + 1, value.length);
         $('html, body').animate({
-            scrollTop: $('#' + last).offset().top
+            scrollTop: $(last).offset().top
         }, 800);
     });
 });
