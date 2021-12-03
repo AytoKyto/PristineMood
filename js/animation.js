@@ -185,7 +185,7 @@ jQuery(document).ready(function ($) {
             duration: 15,
             repeat:-1,
             ease: "power1.inOut"
-        },2);
+        },0.5);
         goals.from(".goalWrapper .branch", 1, {
             autoAlpha: 0,
             rotation: 60,
