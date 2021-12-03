@@ -228,7 +228,7 @@ jQuery(document).ready(function ($) {
             animation: collectively,
             scrub: false,
             trigger: '.collectivelyWrapper',
-            start: "30% bottom",
+            start: "5% bottom",
             end: "bottom top",
         });
         // Canopy
