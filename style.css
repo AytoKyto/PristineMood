@@ -1156,14 +1156,39 @@ body {
 	justify-content: center;
 }
 
+.heroWrapper .heroContent-grenade {
+	text-align: center;
+}
+
+.heroWrapper .heroContent-grenade img {
+	margin: 0 auto;
+}
+
+.heroWrapper .heroContent-logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.heroWrapper .heroContent-logo .grenade {
+	max-width: 20%;
+	margin: 0 3vw 3vw 3vw;
+}
+
+@media (min-width: 1024px) {
+	.heroWrapper .heroContent-logo .grenade {
+		margin: 0 2vw 2vw 2vw;
+	}
+}
+
 .heroWrapper .heroContent-logo img {
 	max-width: 70%;
-	margin: 3vw;
+	margin: 0 3vw 3vw 3vw;
 }
 
 @media (min-width: 1024px) {
 	.heroWrapper .heroContent-logo img {
-		margin: 2vw;
+		margin: 0 2vw 2vw 2vw;
 	}
 }
 
@@ -1271,14 +1296,6 @@ body {
 
 .heroWrapper .subHeroWrapper .subHeroContent {
 	color: white;
-}
-
-.heroWrapper .subHeroWrapper .subHeroContent .grenade {
-	text-align: center;
-}
-
-.heroWrapper .subHeroWrapper .subHeroContent .grenade img {
-	margin: 0 auto;
 }
 
 .heroWrapper .subHeroWrapper .subHeroContent h2 {
@@ -1964,7 +1981,7 @@ body {
 	.canopyWrapper .canopyContent .budding .buddingWrapper {
 		margin: 0 2.5vw;
 		border-radius: 241px;
-		min-height: 70vh;
+		min-height: 79vh;
 	}
 	.canopyWrapper .canopyContent .budding img {
 		width: 7.5vw;

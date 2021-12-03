@@ -28,7 +28,10 @@
 		<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-hero-4.svg"/>
 	</div>
 	<div class="heroContent">
-		<div class="heroContent-logo"><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logohero.svg"/></div>
+		<div class="heroContent-logo">
+			<img class="svgLogo grenade" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/grenade.svg"/>
+			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logohero.svg"/>
+		</div>
 		<div class="heroContent-title">
 			<h1><span>Seeding,</span> <span>budding,</span> <span>blooming.</span></h1>
 			<div class="heroContent-scroll">
@@ -42,7 +45,6 @@
 			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-hero-5.svg"/>
 		</div>
 		<div class="subHeroContent">
-			<div class="grenade"><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/grenade.svg"/></div>
 			<h2><img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/pristine-mood-title.svg"/></h2>
 			<p>
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/quotes.svg" alt="quotes">

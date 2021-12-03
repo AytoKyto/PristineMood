@@ -65,6 +65,10 @@ jQuery(document).ready(function ($) {
         autoAlpha:0,
         y : 20
     }, 0.7)
+    introTl.from('.heroContent-grenade', 0.5, {
+        autoAlpha: 0,
+            y: 20
+        }, 0.7);
 
     // aniamtion du titre
     introTl.staggerFrom('.heroContent h1 span', 1, {
@@ -91,10 +95,6 @@ jQuery(document).ready(function ($) {
         subHero.set('.heroWrapper-branch.branch-5 img', {
             scale: 0
         });
-        subHero.from('.subHeroWrapper .grenade', 0.5, {
-            opacity: 0,
-            y: 20
-        }, 0.5);
         subHero.fromTo('.subHeroWrapper h2', 0.5, {
             opacity:0,
             y:-50
