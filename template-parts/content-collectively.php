@@ -23,7 +23,7 @@
 			</div>
 			<div class="col-4">
 				<svg class="blob-title" xmlns="http://www.w3.org/2000/svg" width="42.981" height="42.981" viewBox="0 0 42.981 42.981"><path d="M13.573.473C7.779,2.026,3.152,6.846,1.128,12.673l-.011.043a19.839,19.839,0,0,0-1.082,4.7A8.253,8.253,0,0,0,.549,21.2a10.817,10.817,0,0,0,.568,2.624c2.5,6.351,9.725,9.2,16.3,7.048C25.13,28.321,30.2,19.71,29.04,11.591,27.9,3.59,21.446-1.647,13.573.473" transform="translate(0 20.65) rotate(-45)" fill="#60831F"/></svg>
-				<h3>Adapted to luxury travel, to luxury travel stakeholders and <br/>to travellers </h3>
+				<h3>Adapted to luxury travel, to luxury travel stakeholders and to travellers </h3>
 				<p>
 					Our shared experience shows that industry professionals might be less aware than consumers, but they are more actively engaged while consumers are very aware but often less actively engaged. Pristine Mood aims at leveraging the professionals in our industry to actively reach and also engage the luxury traveller. 
 					Travel designers especially will play a pivotal role in educating the traveller about the most sustainable ways to travel, which should ultimately become a lifestyle choice. They will be supported by as many luxury travel suppliers as possible, through the sustainable solutions they will offer. 
