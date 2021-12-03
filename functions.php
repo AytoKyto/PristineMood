@@ -191,3 +191,9 @@ require get_template_directory() . '/inc/customizer.php';
 // if ( class_exists( 'WooCommerce' ) ) {
 // require get_template_directory() . '/inc/woocommerce.php';
 // }
+
+
+add_action( 'send_headers', 'add_header_xua' );
+function add_header_xua() {
+	header( 'Strict-Transport-Security: max-age=0;' );
+}
