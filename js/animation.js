@@ -206,6 +206,7 @@ jQuery(document).ready(function ($) {
             trigger: '.goalWrapper',
             start: "top bottom",
             end: "bottom top",
+            markers:true
         });
 
         let collectively = gsap.timeline();
