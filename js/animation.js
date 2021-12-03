@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
         var preloadTl = new TimelineMax();
         var progress_percentage = Math.floor(event.progress * 100);
         percentage_number.innerHTML = progress_percentage + "%";
-        console.log("progress " + Math.floor(event.progress * 100));
+        // console.log("progress " + Math.floor(event.progress * 100));
             preloadTl
                 .to('#counter', 4, {
                     onUpdateParams: ["{self}"],
@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
             // Animation des branches
     });
     img_queue.addEventListener("complete", event => {
-        console.log("complete " + event.progress);
+        // console.log("complete " + event.progress);
         $('html').removeClass("loading");
         // Finish the preload timeline if you'd like
         preloadTl.onRepeat = function (tl) {
@@ -31,7 +31,7 @@ jQuery(document).ready(function ($) {
         introTl.play();
     });
     var templateUrl = object_name.templateUrl;
-    console.log(templateUrl + "/assets/branch-hero-4.svg");
+    // console.log(templateUrl + "/assets/branch-hero-4.svg");
     img_queue.loadFile(templateUrl + "/assets/branch-hero-4.svg");
     img_queue.loadFile(templateUrl + "/assets/grenade.svg");
     img_queue.loadFile(templateUrl + "/assets/logohero.svg");
@@ -66,11 +66,7 @@ jQuery(document).ready(function ($) {
     img_queue.loadFile(templateUrl + "/assets/panthere.png");
     img_queue.loadFile(templateUrl + "/assets/bee-contact.png");
     img_queue.loadFile(templateUrl + "/assets/bg_hero-1.png");
-
-
     
-
-
     introTl.from('.heroWrapper', 1, {
         autoAlpha: 0,
     })
@@ -342,24 +338,28 @@ jQuery(document).ready(function ($) {
            animation: canopyContainer,
            scrub: false,
            trigger: '.canopyContainer',
-           start: "30% bottom",
+           start: "top bottom",
            end: "bottom top",
        });
 
+
+
     //    Contact
        let contact = gsap.timeline();
-       contact.from('.contactWrapper .beeContact', 0.5, {
-           autoAlpha: 0,
-           y: -20
-       }, 0.5)
+       
        contact.from('.contactWrapper .contactTitle', 0.5, {
            autoAlpha: 0,
            y: -20
-       }, 0.8)
+       }, 0.3)
        contact.from('.contactWrapper .contactContent', 0.5, {
            autoAlpha: 0,
            y: -20
-       }, 1.2)
+       }, 0.6)
+       contact.from('.contactWrapper .beeContact', 0.5, {
+           autoAlpha: 0,
+           y: 50,
+           delay: 1.5
+       }, 0.8)
        contact.staggerFrom('.contactWrapper .poppin', 0.5, {
            autoAlpha: 0,
            y: 10,
@@ -371,20 +371,20 @@ jQuery(document).ready(function ($) {
            x: -40,
            scale: 0,
            transformOrigin: "left center",
-       }, 3)
+       }, 2)
        contact.from('.contactWrapper .branch-1', 0.5, {
            autoAlpha: 0,
            rotation: 20,
            x: -40,
            scale: 0,
            transformOrigin: "right center",
-       }, 3.3)
+       }, 2.3)
 
        ScrollTrigger.create({
            animation: contact,
            scrub: false,
            trigger: '.contactWrapper',
-           start: "top bottom",
+           start: "20% bottom",
            end: "bottom top",
        });
 

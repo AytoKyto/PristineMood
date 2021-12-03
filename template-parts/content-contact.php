@@ -1,7 +1,7 @@
 <div class="contactWrapper">
 	<div class="contact">
-		<div>
-			<img class="svgLogo beeContact" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/bee-contact.png"/>
+		<div class="contactTitleWrap">
+			<img class="svgLogo beeContact" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/bee-contact.gif"/>
 			<p class="contactTitle">Contact us</p>
 			<p class="contactContent">
 				This is an exclusive launch for Serandipian Members and Partners first.<br/>
