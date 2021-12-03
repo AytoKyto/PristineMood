@@ -257,7 +257,10 @@
                 font-family: "retiro-std-24pt";
                 text-align: center;
                 font-size: 3rem;
-
+                padding:0 20px;
+                @media (min-width:$breakpoint-tablet-horizontal) {
+                    padding:0;
+                }
                 span {
                     font-family: 'Poppins';
                     font-weight: 200;

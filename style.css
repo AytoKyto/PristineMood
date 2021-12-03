@@ -1277,6 +1277,13 @@ body {
 	font-family: "retiro-std-24pt";
 	text-align: center;
 	font-size: 3rem;
+	padding: 0 20px;
+}
+
+@media (min-width: 1024px) {
+	.heroWrapper .subHeroWrapper .subHeroContent h2 {
+		padding: 0;
+	}
 }
 
 .heroWrapper .subHeroWrapper .subHeroContent h2 span {
