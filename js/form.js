@@ -26,7 +26,7 @@ jQuery(document).ready(function ($) {
        let value = getAnchor();
        console.log(value);
        $('html, body').delay(1000).animate({
-           scrollTop: $('#'+value).offset().top
+           scrollTop: $('#'+value).offset().top-100
        }, 800);
     }
 });
