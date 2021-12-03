@@ -33,13 +33,13 @@
 			<path id="orbit_spider" data-name="Tracé 46623" d="M-211.059,10194.569s46.168-71.552,109.148-209.6c22.858-50.1,90.883-79.679,99.035-159,6.825-66.412,13.92-122.73,0-202.806-16.08-92.5-54.137-204.5-54.137-204.5l20.9-281.671,11.728-211.5s-47.923-173.867-57.6-191.442C-108,8686.8-165,8425.205-276.183,8329.4" transform="translate(276.509 -8329.021)" fill="none" stroke="none" stroke-width="1"/>
 		</svg>
 
-		<img class="svgLogo femme" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/spider.svg"/>
+		<img class="svgLogo femme" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/spider.gif"/>
 	</div>
 	<div class="branch">
 		<img class="svgLogo femme" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/branch-goal.svg"/>
 	</div>
 	<div class="bee">
-		<img class="svgLogo femme" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/bee.png"/>
+		<img class="svgLogo femme" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/bee.gif"/>
 			<svg xmlns="http://www.w3.org/2000/svg" width="3237.057" height="1265.594" viewBox="0 0 3237.057 1265.594">
 		<path id="fly_bee" data-name="Tracé 46622" d="M682.037,9551.82s803.223-974.262,1463.1-553.648,955.211-80.227,955.211-80.227,860.336-1653.357,816.234,392.921" transform="translate(-681.652 -8286.545)" fill="none" stroke="transparent" stroke-width="1"/>
 	</svg>

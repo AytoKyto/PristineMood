@@ -13,9 +13,9 @@ jQuery(document).ready(function ($) {
     $('a.anchor').on('click', function (e) {
         e.preventDefault();
         const value = this.getAttribute('href');
-        //console.log(value);
+        last = value.substring(value.lastIndexOf("/") + 1, value.length);
         $('html, body').animate({
-            scrollTop: $('#' + value).offset().top
+            scrollTop: $('#' + last).offset().top
         }, 800);
     });
 });

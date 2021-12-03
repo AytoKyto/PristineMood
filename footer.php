@@ -15,7 +15,9 @@
 	<?php get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
 	<div class="bigWrapperFlex">
 		<div class="footerWrapperName">
+			<a href="/">
 			<img class="svgLogo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logofooter.svg"/>
+			</a>
 		</div>
 		<div class="FooterNewsletterWrapper">
 			<p class="titleNewslater">SUBSCRIBE TO PRISTINE MOOD COMMUNICATIONS</p>
@@ -74,10 +76,10 @@
 				<div class="menuAnchor">
 					<ul>
 						<li><strong>MENU</strong></li>
-						<li><a class="anchor" href="pristime-mood">PRISTINE MOOD</a></li>
-						<li><a class="anchor" href="goal">GOALS</a></li>
-						<li><a class="anchor" href="collectively">APPROACH</a></li>
-						<li><a class="anchor" href="canopy">SUSTAINABILITY CANOPY</a></li>
+						<li><a class="anchor" href="<?php echo get_site_url(); ?>/pristime-mood">PRISTINE MOOD</a></li>
+						<li><a class="anchor" href="<?php echo get_site_url(); ?>/goal">GOALS</a></li>
+						<li><a class="anchor" href="<?php echo get_site_url(); ?>/collectively">APPROACH</a></li>
+						<li><a class="anchor" href="<?php echo get_site_url(); ?>/canopy">SUSTAINABILITY CANOPY</a></li>
 					</ul>
 				</div>
 				<div class="logoTraveller">
